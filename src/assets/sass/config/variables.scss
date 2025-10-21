@@ -1,0 +1,41 @@
+@use "sass:math";
+//_variables.scss
+$ff: "Noto Sans JP", sans-serif; // bodyに指定するフォント
+$ff-jp: "Noto Sans JP", sans-serif; //日本語onlyのフォント
+$ff-en: "Overpass", sans-serif; //英語onlyのフォント
+
+//===========================================
+//   レイアウト (単位は不要)
+//===========================================
+$pc-inner: 768; // pc版inner幅
+$pc-sidePadding: 30; //pc版サイドのpadding
+$pc-inner-sum: calc($pc-inner + $pc-sidePadding * 2);
+$pc-narrow-inner: 1000; //狭いinner幅
+$pc-narrow-inner-sum: calc($pc-narrow-inner + $pc-sidePadding * 2);
+$breakpoint: 768; // ブレイクポイント (pc版カンプとsp版カンプの境界)
+$sp-sidePadding: 18; //sp版サイドのpadding
+$pc-camp: 1080; // pc版のカンプサイズを入力
+$sp-camp: 393; // sp版のカンプサイズを入力
+$sp-inner: 768;
+$sp-inner-sum: calc($sp-inner + $sp-sidePadding * 2);
+
+$sm-breakpoint: 500; // small版ブレイクポイント
+
+//z-index
+$z-header: 100;
+$z-drawerIcon: 102;
+$z-drawer: 101;
+
+//===========================================
+//   カラー
+//===========================================
+$text-main-1: #333;
+$text-main-2: #374151;
+$text-white: #fff;
+$text-accent-pink: #E5647E;
+$text-accent-yellow: #FFF2A4;
+
+$main-color: #333;
+
+$accent-pink: #E5647E;
+$accent-pink-light: #FA92A7;

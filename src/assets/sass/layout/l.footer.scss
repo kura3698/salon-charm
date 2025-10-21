@@ -1,0 +1,36 @@
+@use "../config/" as *;
+
+.l-footer {
+}
+
+.l-footer__inner {
+  padding-block: rm(40) rm(32);
+}
+
+.l-footer__container {
+  display: flex;
+  gap: rm(30);
+  color: $text-light-gray;
+  font-size: rm(12);
+  font-weight: 400;
+  line-height: 1.6;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-footer__item {
+}
+
+.l-footer__link {
+}
+
+.l-footer__copyright {
+  display: inline-block;
+  width: 100%;
+  margin-block-start: rm(11);
+  text-align: center;
+  color: $text-light-gray;
+  font-size: rm(12);
+  font-weight: 400;
+  line-height: 1.6;
+}

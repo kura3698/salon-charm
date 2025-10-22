@@ -10,9 +10,19 @@
 }
 
 .p-faq__head {
+  color: #fff;
+  text-align: center;
+  font-family: $ff-mincho;
+  font-size: rm(22);
+  font-weight: 800;
+  line-height: 2.8;
+  padding-block: rm(26) rm(31);
+  background: $accent-pink;
 }
 
 .p-faq__container {
+  padding-block: rm(40);
+  background: #ffe1e1;
 }
 
 .p-faq__item {

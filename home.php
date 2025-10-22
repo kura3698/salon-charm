@@ -30,7 +30,7 @@
                 <h2 class="p-faq__head">よくある質問</h2>
                 <div class="p-faq__container">
                     <details class="p-faq__item js-details">
-                        <summary class="js-summary">
+                        <summary class="js-summary p-faq__question">
                             <span class="p-faq__question">
                                 <span class="p-faq__question-text">
                                     パソコンが苦手でも使えますか？
@@ -38,109 +38,14 @@
                             </span>
                         </summary>
                         <div class="js-content">
-                            <ul class="p-faq__answer">
-                                <li class="p-faq__answer-text">
+                            <div class="p-faq__answer">
+                                <p class="p-faq__answer-text">
                                     はい、スマホだけで簡単に操作できます。<br>LINEで友達に送るような感覚です。
-                                </li>
-                            </ul>
+                                </p>
+                            </div>
                         </div>
                     </details>
-                    <details class="p-faq__item js-details">
-                        <summary class="js-summary">
-                            <span class="p-faq__question">
-                                <span class="p-faq__question-text">
-                                    本当に10分で文章が完成しますか？
-                                </span>
-                            </span>
-                        </summary>
-                        <div class="js-content">
-                            <ul class="p-faq__answer">
-                                <li class="p-faq__answer-text">
-                                    はい、スマホだけで簡単に操作できます。<br>LINEで友達に送るような感覚です。
-                                </li>
-                            </ul>
-                        </div>
-                    </details>
-                    <details class="p-faq__item js-details">
-                        <summary class="js-summary">
-                            <span class="p-faq__question">
-                                <span class="p-faq__question-text">
-                                    追加料金はかかりますか？
-                                </span>
-                            </span>
-                        </summary>
-                        <div class="js-content">
-                            <ul class="p-faq__answer">
-                                <li class="p-faq__answer-text">
-                                    はい、スマホだけで簡単に操作できます。<br>LINEで友達に送るような感覚です。
-                                </li>
-                            </ul>
-                        </div>
-                    </details>
-                    <details class="p-faq__item js-details">
-                        <summary class="js-summary">
-                            <span class="p-faq__question">
-                                <span class="p-faq__question-text">
-                                    効果は必ず出ますか？
-                                </span>
-                            </span>
-                        </summary>
-                        <div class="js-content">
-                            <ul class="p-faq__answer">
-                                <li class="p-faq__answer-text">
-                                    はい、スマホだけで簡単に操作できます。<br>LINEで友達に送るような感覚です。
-                                </li>
-                            </ul>
-                        </div>
-                    </details>
-                    <details class="p-faq__item js-details">
-                        <summary class="js-summary">
-                            <span class="p-faq__question">
-                                <span class="p-faq__question-text">
-                                    ネタ切れになりませんか？
-                                </span>
-                            </span>
-                        </summary>
-                        <div class="js-content">
-                            <ul class="p-faq__answer">
-                                <li class="p-faq__answer-text">
-                                    はい、スマホだけで簡単に操作できます。<br>LINEで友達に送るような感覚です。
-                                </li>
-                            </ul>
-                        </div>
-                    </details>
-                    <details class="p-faq__item js-details">
-                        <summary class="js-summary">
-                            <span class="p-faq__question">
-                                <span class="p-faq__question-text">
-                                    本当に私でも続けられるでしょうか？
-                                </span>
-                            </span>
-                        </summary>
-                        <div class="js-content">
-                            <ul class="p-faq__answer">
-                                <li class="p-faq__answer-text">
-                                    はい、スマホだけで簡単に操作できます。<br>LINEで友達に送るような感覚です。
-                                </li>
-                            </ul>
-                        </div>
-                    </details>
-                    <details class="p-faq__item js-details">
-                        <summary class="js-summary">
-                            <span class="p-faq__question">
-                                <span class="p-faq__question-text">
-                                    導入サポートはありますか？
-                                </span>
-                            </span>
-                        </summary>
-                        <div class="js-content">
-                            <ul class="p-faq__answer">
-                                <li class="p-faq__answer-text">
-                                    はい、スマホだけで簡単に操作できます。<br>LINEで友達に送るような感覚です。
-                                </li>
-                            </ul>
-                        </div>
-                    </details>
+
                 </div>
             </div>
         </section>

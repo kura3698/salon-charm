@@ -5,8 +5,8 @@ function my_theme_enqueue_multiple_fonts_and_preload()
     $JP_font_url = 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap';
     wp_enqueue_style('Noto Sans Japanese', $JP_font_url, array(), null, 'all');
 
-    $EN_font_url = 'https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap';
-    wp_enqueue_style('josefin-sans', $EN_font_url, array(), null, 'all');
+    $mincho_font_url = 'https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap';
+    wp_enqueue_style('shippori-mincho', $mincho_font_url, array(), null, 'all');
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_multiple_fonts_and_preload');
 

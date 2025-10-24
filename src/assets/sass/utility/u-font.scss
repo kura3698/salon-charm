@@ -1,10 +1,8 @@
-@use '../config/' as *;
-.u-font {
-  font-family: $ff;
-  &__jp {
-    font-family: $ff-jp;
-  }
-  &__en {
-    font-family: $ff-en;
-  }
+@use "../config/" as *;
+
+.u-font-small {
+  color: #6b7280 ;
+  font-size: rm(11);
+  font-weight: 300;
+  line-height: 1.6;
 }

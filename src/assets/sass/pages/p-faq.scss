@@ -1,9 +1,7 @@
 @use "../config/" as *;
 
 .p-faq {
-}
-
-.l-inner {
+  background: #ffe1e1;
 }
 
 .p-faq__inner {
@@ -18,33 +16,100 @@
   line-height: 2.8;
   padding-block: rm(26) rm(31);
   background: $accent-pink;
+  width: 100%;
 }
 
 .p-faq__container {
   padding-block: rm(40);
-  background: #ffe1e1;
 }
 
 .p-faq__item {
-}
+  padding-inline: rm(16);
+  border-radius: rm(14);
+  background: #fff;
+  color: $accent-pink;
+  font-family: $ff-mincho;
+  font-size: rm(14);
 
-.js-details {
-}
-
-.js-summary {
+  line-height: 2;
 }
 
 .p-faq__question {
+  position: relative;
+  padding-block: rm(9);
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    background-color: $accent-pink;
+  }
+
+  &::before {
+    right: 0;
+    width: rm(10);
+    height: rm(1);
+  }
+  &::after {
+    right: rm(4);
+    width: rm(1);
+    height: rm(10);
+    transition: rotate 0.3s ease-in-out;
+  }
 }
 
 .p-faq__question-text {
-}
-
-.js-content {
+  position: relative;
+  padding-inline: rm(20) rm(15);
+  font-weight: 800;
+  &::before {
+    content: "Q.";
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    left: 0;
+  }
 }
 
 .p-faq__answer {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: height 0.4s ease, opacity 0.4s ease;
+  border-block-start: 1px solid #d9d9d9;
+}
+
+.is-opened .p-faq__answer {
+  opacity: 1;
 }
 
 .p-faq__answer-text {
+  color: $text-main-1;
+  font-size: rm(11);
+  font-weight: 400;
+  line-height: 1.9;
+  font-family: $ff-jp;
+  padding-left: rm(20);
+  position: relative;
+  padding-block: rm(9);
+
+  &::before {
+    content: "A.";
+    position: absolute;
+    top: rm(4);
+    left: 0;
+    font-size: rm(14);
+    color: $accent-pink;
+    font-family: $ff-mincho;
+    font-weight: 500;
+  }
+}
+
+.p-faq__item.is-opened .p-faq__question::after {
+  rotate: 90deg;
+}
+
+details + details {
+  margin-block-start: rm(10);
 }

@@ -28,7 +28,41 @@
         <!-------------------------------
         //    サロンチャームは誰でも安心して使えますｚｚ
         //------------------------------->
-        <section class="p-easeofuse"></section>
+        <section class="p-easeofuse">
+            <h2 class="p-easeofuse__head">本当に簡単？安心してください。<br>『サロンチャーム』は誰でも使えます。</h2>
+            <div class="l-inner p-easeofuse__inner">
+                <p class="p-easeofuse__description-1">
+                    <span class="u-font-squire">『でも、こういうツールって難しそう…』</span><br>多くのオーナーさんが最初に口にする言葉です。<br>安心してください。サロンチャームには、<br>最初から<span class="u-font-squire">専用マニュアル</span>をおつけしています。<br>使い方に迷ったときには、<br>操作動画を見ながら<span class="u-font-squire">そのまま真似するだけ。</span><br>『本当にできるの？』そんな不安も不要です。<br>
+                    サロンチャームは、<br>
+                    <span class="u-font-squire">まるでLINEで友達とやり取りするような感覚</span>で<br>進められます。<br>スマホでポチポチ質問に答えていくだけで、<br>型に沿った文章が自動で完成するのです。
+                </p>
+                <div class="p-easeofuse__video-container">
+                    <video controls width="100%" height="auto" preload="metadata">
+                        <source src="<?php echo esc_url(get_template_directory_uri()); ?>/video/howto.mp4" type="video/mp4">
+                        お使いのブラウザは動画に対応していません。<a href="<?php echo esc_url(get_template_directory_uri()); ?>/video/howto.mp4">動画をダウンロード</a>してください。
+                    </video>
+                </div>
+                <p class="p-easeofuse__description-2">どうですか？<br>思ったより簡単ですよね？</p>
+                <p class="p-easeofuse__description-3">動画を見れば、<br><span class="u-font-squire">"私でもできる"</span>と安心していただけるはずです。<br>『どうやってやるの？』と思ったら、<br>こちらも動画で確認できます。<br>見ながら操作すれば、<br><span class="u-font-squire">パソコンが苦手な方でも</span>安心して使いこなせます。</p>
+                <div class="p-easeofuse__point">
+                    <p class="p-easeofuse__point-head">Point</p>
+                    <ul class="p-easeofuse__point-list">
+                        <li class="p-easeofuse__point-item">
+                            <span class="p-easeofuse__point-title">専用マニュアル付き</span>
+                            <p class="p-easeofuse__point-description">最初から専用マニュアルをおつけしています</p>
+                        </li>
+                        <li class="p-easeofuse__point-item">
+                            <span class="p-easeofuse__point-title">操作動画で安心</span>
+                            <p class="p-easeofuse__point-description">使い方に迷ったときには、<br>操作動画を見ながらそのまま真似するだけ</p>
+                        </li>
+                        <li class="p-easeofuse__point-item">
+                            <span class="p-easeofuse__point-title">パソコン不要</span>
+                            <p class="p-easeofuse__point-description">スマホだけで操作OK<br>パソコンが苦手な方でも安心</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
 
 

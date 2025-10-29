@@ -1,0 +1,93 @@
+@use "../config/" as *;
+
+.p-action {
+  padding-block-start: rm(40);
+}
+
+.p-action__inner {
+}
+
+.p-action__head {
+  display: flex;
+  gap: rm(8);
+  flex-direction: column;
+  span {
+    font-size: rm(14);
+  }
+}
+.p-action__head-text {
+  width: fit-content;
+  margin-inline: auto;
+  display: inline-block;
+  color: $text-white;
+  text-align: center;
+  font-family: $ff-mincho;
+  font-size: rm(24);
+  font-weight: 800;
+  line-height: 1.8;
+  padding-inline: rm(10);
+  border-radius: rm(7);
+  background: linear-gradient(126deg, #ed8ea4 38.44%, #e66881 109.98%);
+}
+
+.p-action__contents {
+  padding-block: rm(40);
+}
+
+.p-action__text {
+  text-align: center;
+  color: $text-main-1;
+  text-align: center;
+  font-weight: 700;
+}
+
+.p-action__text--1 {
+  line-height: 1.8;
+}
+
+.p-action__text--2 {
+  padding-block-start: rm(21);
+  line-height: 1.8;
+}
+
+.p-action__text--3 {
+  padding-block-start: rm(17);
+}
+
+.p-action__list {
+  padding-block-start: rm(30);
+  display: flex;
+  flex-direction: column;
+  gap: rm(10);
+}
+
+.p-action__item {
+  width: rm(300);
+  margin-inline: auto;
+  border-radius: rm(2);
+  border: rm(0.5) solid $accent-pink;
+  background: #ffedf2;
+  display: flex;
+  padding-inline-start: rm(9);
+  gap: rm(8);
+  align-items: center;
+}
+
+.p-action__item-check {
+  width: rm(14);
+  height: rm(14);
+}
+
+.p-action__item-text {
+  color: $text-accent-pink;
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+.p-action__text--4 {
+  padding-block-start: rm(28);
+  line-height: 1.8;
+}
+.p-action__text--5 {
+  padding-block-start: rm(12);
+}

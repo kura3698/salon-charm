@@ -1,8 +1,21 @@
 @use "../config/" as *;
 
 .u-font-small {
-  color: #6b7280 ;
+  color: #6b7280;
   font-size: rm(11);
   font-weight: 300;
   line-height: 1.6;
+}
+
+.u-font-color--accent-pink {
+  color: $text-accent-pink !important;
+  font-weight: 700;
+}
+
+.u-font--attention {
+  text-align: center;
+  font-size: rm(10);
+  font-weight: 400;
+  line-height: 1.6;
+  color: $text-light-gray;
 }

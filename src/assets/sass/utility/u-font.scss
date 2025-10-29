@@ -1,10 +1,30 @@
-@use '../config/' as *;
-.u-font {
-  font-family: $ff;
-  &__jp {
-    font-family: $ff-jp;
-  }
-  &__en {
-    font-family: $ff-en;
-  }
+@use "../config/" as *;
+
+.u-font-small {
+  color: #6b7280;
+  font-size: rm(11);
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.u-font-color--accent-pink {
+  color: $text-accent-pink !important;
+  font-weight: 700;
+}
+
+.u-font--attention {
+  text-align: center;
+  font-size: rm(10);
+  font-weight: 400;
+  line-height: 1.6;
+  color: $text-light-gray;
+}
+
+.u-font-squire {
+  border-radius: rm(2);
+  border: rm(0.5) solid $accent-pink;
+  background: #fff;
+  color: $text-accent-pink;
+  font-weight: 700;
+  padding-inline: rm(2);
 }

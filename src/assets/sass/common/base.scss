@@ -6,10 +6,8 @@ html {
   font-size: calc(16 / #{$sp-camp} * 100vw);
 
   // 768px以上ではスケールを止めて固定値にする（例：768px幅時の値で固定）
-  @media screen and (min-width: 768px) {
-    font-size: calc(
-      16 / #{$sp-camp} * 768px / 100
-    ); // ← 768px幅のときの値を固定
+  @media screen and (min-width: 750px) {
+    font-size: calc(16 / #{$sp-camp} * 750px); // ← 750px幅のときの値を固定
   }
 }
 
@@ -17,6 +15,8 @@ body {
   color: $text-main-1;
   font-family: $ff;
   font-size: rm(14);
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 a {
@@ -28,12 +28,20 @@ a {
       cursor: pointer;
     }
   }
+  transition: opacity 0.3s ease-in-out;
+  &:focus-visible {
+    opacity: 0.6;
+  }
+  @media (any-hover: hover) {
+    &:hover {
+      opacity: 0.6;
+    }
+  }
 }
 
 picture,
 img,
-a,
-span {
+a {
   display: inline-block;
 }
 
@@ -120,3 +128,15 @@ a[href^="tel:"] {
 // :focus {
 //   scroll-margin-block-start: var(--scroll-margin);
 // }
+
+summary {
+  display: block;
+  &::-webkit-details-marker {
+    display: none;
+  }
+  @media (any-hover: hover) {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

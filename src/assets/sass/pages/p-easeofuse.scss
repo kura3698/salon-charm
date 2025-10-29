@@ -1,50 +1,90 @@
 @use "../config/" as *;
+.p-easeofuse {
+  background: #ffe1e1;
+}
+
+.p-easeofuse__head {
+  color: #fff;
+  text-align: center;
+  font-family: $ff-mincho;
+  font-size: rm(22);
+  font-weight: 800;
+  line-height: 1.45;
+  padding-block: rm(21);
+  background: $accent-pink;
+  width: 100%;
+  white-space: nowrap;
+}
 
 .p-easeofuse__inner {
-
+  padding-block: rm(22) rm(40);
+  text-align: center;
 }
 
 .p-easeofuse__description-1 {
-
-}
-
-.u-font-squire {
-
+  line-height: 2.21;
+  font-weight: 500;
 }
 
 .p-easeofuse__video-container {
-
+  padding-block-start: rm(27);
+  margin-inline: auto;
+  width: rm(335);
+  video {
+    aspect-ratio: 635/401;
+  }
 }
 
 .p-easeofuse__description-2 {
-
+  padding-block-start: rm(21);
+  color: $text-accent-pink;
+  font-family: $ff-mincho;
+  font-size: rm(28);
+  font-weight: 800;
+  line-height: 1.21;
 }
 
 .p-easeofuse__description-3 {
-
+  padding-block-start: rm(13);
+  font-weight: 500;
+  line-height: 2.21;
 }
 
 .p-easeofuse__point {
-
+  padding-block-start: rm(30);
 }
 
 .p-easeofuse__point-head {
-
+  width: rm(189);
+  display: inline-block;
 }
 
 .p-easeofuse__point-list {
-
+  display: flex;
+  flex-direction: column;
+  gap: rm(11);
+  width: rm(286);
+  margin-inline: auto;
+  padding-block-start: rm(12);
 }
 
 .p-easeofuse__point-item {
-
+  border-radius: rm(7);
+  border: rm(1) solid $accent-pink;
+  background: #fff;
+  padding: rm(6) rm(22);
 }
 
 .p-easeofuse__point-title {
-
+  color: $text-accent-pink;
+  font-weight: 700;
+  line-height: 1.42;
 }
 
 .p-easeofuse__point-description {
-
+  color: $text-main-2;
+  font-size: rm(12);
+  font-weight: 700;
+  line-height: 1.33;
+  margin-block-start: rm(3);
 }
-

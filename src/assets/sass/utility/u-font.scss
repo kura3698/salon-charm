@@ -19,3 +19,12 @@
   line-height: 1.6;
   color: $text-light-gray;
 }
+
+.u-font-squire {
+  border-radius: rm(2);
+  border: rm(0.5) solid $accent-pink;
+  background: #fff;
+  color: $text-accent-pink;
+  font-weight: 700;
+  padding-inline: rm(2);
+}

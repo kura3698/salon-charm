@@ -27,7 +27,9 @@
         <section class="p-easeofuse"></section>
         <section class="p-overview"></section>
         <section class="p-plan"></section>
-        <section class="p-voice"></section>
+        <section class="p-voice">
+            <h1>お客様の声</h1>
+        </section>
 
         <!-------------------------------
 //    大手美容サロンで培った

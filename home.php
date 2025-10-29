@@ -24,9 +24,77 @@
         <section class="p-insight"></section>
         <section class="p-feature"></section>
         <section class="p-benefit"></section>
+
+        <!-------------------------------
+        //    サロンチャームは誰でも安心して使えますｚｚ
+        //------------------------------->
         <section class="p-easeofuse"></section>
-        <section class="p-overview"></section>
+
+
+
+        <!--
+        <section class="p-overview">
+            <h2 class="p-overview__head">サロンチャームの概要</h2>
+            <div class="l-inner p-overview__inner">
+                <table class="p-overview__table">
+                    <tbody class="p-overview__contents">
+                        <tr class="p-overview__item">
+                            <th class="p-overview__table-head">商品名</th>
+                            <td class="p-overview__table-data">
+                                <span class="product-name-text">予約につながる文章作成ツール<br>「サロンチャーム」</span>
+                            </td>
+                        </tr>
+                        <tr class="p-overview__item">
+                            <th class="p-overview__table-head">特徴</th>
+                            <td class="p-overview__table-data">
+                                <ul>
+                                    <li>"予約につながる30の型"を内蔵</li>
+                                    <li>スマホだけで操作OK<br>（パソコン不要）</li>
+                                    <li>質問に答えてポチポチするだけで文章完成</li>
+                                    <li>マニュアル＆操作動画つき</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="p-overview__item">
+                            <th class="p-overview__table-head">利用環境</th>
+                            <td class="p-overview__table-data">
+                                <ul>
+                                    <li>ChatGPTを利用／<br>無料プラン可（回数制限あり）</li>
+                                    <li>安定利用には有料課金<br>（約3,000円／月）推奨</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="p-overview__item">
+                            <th class="p-overview__table-head">価格</th>
+                            <td class="p-overview__table-data">
+                                <span class="u-font-color--accent-pink">
+                                    リリース記念価格<br>19,800円（買い切り）
+                                    <span class="price-note">※通常価格<span class="original-price">49,800円</span></span>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr class="p-overview__item">
+                            <th class="p-overview__table-head">注意点</th>
+                            <td class="p-overview__table-data">
+                                <ul>
+                                    <li>効果を確実に保証するものでは<br>ありません</li>
+                                    <li>ご利用環境により表示や操作が<br>異なる場合があります</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section> -->
+
+
+
+
         <section class="p-plan"></section>
+
+
+
         <section class="p-voice">
             <h1>お客様の声</h1>
         </section>

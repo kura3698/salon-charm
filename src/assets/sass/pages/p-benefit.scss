@@ -15,6 +15,7 @@
 }
 
 .p-benefit__head-text {
+  padding-block-start: rm(30);
   position: absolute;
   top: rm(40);
   left: 50%;
@@ -23,7 +24,7 @@
   font-family: $ff-mincho;
   font-size: rm(20);
   font-weight: 800;
-  line-height: 1.85;
+  line-height: 1;
   width: 100%;
   text-align: center;
 }
@@ -31,10 +32,16 @@
 .p-benefit__head-text--accent {
   font-size: rm(32);
   position: relative;
+  display: inline-block;
+  line-height: 1.85;
   &::after {
     content: "";
     position: absolute;
-    background: url("../img/dec_line.svg");
+    background: url("../img/dec_line.svg") center / contain no-repeat;
+    width: 100%;
+    height: auto;
+    inset: 0;
+    top: rm(44);
   }
 }
 

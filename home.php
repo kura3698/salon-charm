@@ -115,7 +115,7 @@
                                 </p>
                             </div>
                             <figure class="c-benefit-card__image">
-                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img_benefit-5.webp" loading="lazy" alt="女性が知り合いに合う雰囲気で来店する画像" width="361" height="180">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img_benefit-4.webp" loading="lazy" alt="女性が知り合いに合う雰囲気で来店する画像" width="361" height="180">
                             </figure>
                         </div>
                     </li>

@@ -1,0 +1,46 @@
+@use "../config/" as *;
+
+.c-feature-text-bg {
+  position: relative;
+  inset: 0;
+  border-radius: rm(30);
+  background: #fff;
+  height: rm(60);
+  width: rm(260);
+
+  &::after {
+    content: "";
+    position: absolute;
+    background: url(../img/deco_tri.svg) center / contain no-repeat;
+    width: rm(30);
+    height: rm(41);
+    bottom: rm(-11);
+    left: rm(14);
+  }
+  &--reverse {
+    &::after {
+      content: "";
+      background: url(../img/deco_tri--reverse.svg) center / contain no-repeat;
+      position: absolute;
+      left: unset;
+      right: rm(14);
+    }
+  }
+}
+
+.c-feature-text {
+  position: absolute;
+  background: linear-gradient(125deg, #ed8fa5 30.59%, #e66882 102.26%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: rm(16);
+  font-weight: 700;
+  line-height: 1.375;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  white-space: nowrap;
+  z-index: 1;
+}

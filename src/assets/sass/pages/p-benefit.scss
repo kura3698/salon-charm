@@ -1,12 +1,12 @@
 @use "../config/" as *;
 .p-benefit {
-  background: #ffe1e1;
-  padding-block-end: rm(41);
 }
 
 .p-benefit__head {
   position: relative;
   height: rm(249);
+  margin-block-start: rm(-75);
+  z-index: 2;
 }
 
 .p-benefit__head-bg {
@@ -46,6 +46,9 @@
 }
 
 .p-benefit__inner {
+  background: #ffe1e1;
+  padding-block: rm(70) rm(40);
+  margin-block-start: rm(-63);
 }
 
 .p-benefit__list {

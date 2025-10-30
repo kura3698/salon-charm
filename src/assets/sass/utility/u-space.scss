@@ -1,0 +1,7 @@
+@use "../config/" as *;
+
+.u-space-top {
+  margin-top: rm(5);
+  display: inline-block;
+  font-weight: 500;
+}

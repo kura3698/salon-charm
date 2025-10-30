@@ -22,7 +22,39 @@
         <section class="p-fv"></section>
         <section class="p-problem"></section>
         <section class="p-insight"></section>
-        <section class="p-feature"></section>
+
+
+        <!-------------------------------
+        //    予約につながる型をツールにそのまま入れました
+        //------------------------------->
+        <section class="p-feature">
+            <h2 class="__head">
+                <span class="u-font-size-large">30個</span>の<span class="u-font-size-large u-font-color--accent-yellow">"予約につながる型"</span>を<br>ツールにそのまま入れました
+            </h2>
+            <div class="l-inner __inner" style="background:yellow;">
+                <p class="__description-1">
+                    実は、かなうのメルマガ限定特典として<br>無料で“予約につながる文章の30の型”を<br>お渡ししています。<br><span class="u-space-top">でも、</span>
+                </p>
+                <div class="__contents">
+                    <div class="__text-wrap">
+                        <div class="c-feature-text-bg">
+                            <p class="c-feature-text">その型を見ながら<br>自分で文章を考えるのは大変</p>
+                        </div>
+                        <div class="c-feature-text-bg c-feature-text-bg--reverse">
+                            <p class="c-feature-text c-feature-text">そもそも合ってるのか自信がない</p>
+                        </div>
+                        <div class="c-feature-text-bg">
+                            <p class="c-feature-text">添削してほしい･･･</p>
+                        </div>
+                    </div>
+                    <div class="__image">
+                        <img src='<?php echo esc_url(get_template_directory_uri()); ?>./img/img_nayami.webp' alt='頭を抱える男女のイラスト' width='311' height='153' loading='lazy'>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
 
 
         <!-------------------------------
@@ -158,7 +190,7 @@
         </section>
 
         <!-------------------------------
-        //    サロンチャームは誰でも安心して使えますｚｚ
+        //    サロンチャームは誰でも安心して使えます
         //------------------------------->
         <section class="p-easeofuse">
             <h2 class="p-easeofuse__head">本当に簡単？安心してください。<br>『サロンチャーム』は誰でも使えます。</h2>

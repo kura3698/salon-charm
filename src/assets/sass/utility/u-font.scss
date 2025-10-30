@@ -7,9 +7,16 @@
   line-height: 1.6;
 }
 
+.u-font-size-large {
+  font-size: rm(28);
+}
+
 .u-font-color--accent-pink {
   color: $text-accent-pink !important;
   font-weight: 700;
+}
+.u-font-color--accent-yellow {
+  color: $text-accent-yellow !important;
 }
 
 .u-font--attention {

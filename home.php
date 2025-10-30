@@ -50,8 +50,22 @@
                 <ol class="p-benefit__list">
                     <li class="p-benefit__item c-benefit-card">
                         <div class="c-benefit-card__head">
-                            <div class="c-benefit-card__head-bg"></div>
-                            <h3 class="c-benefit-card__head-text">もう"文章に1時間"<br>悩まなくていい</h3>
+                            <div class="c-benefit-card__bg"></div>
+                            <span class="c-benefit-card__number">01</span>
+                            <h3 class="c-benefit-card__text">もう"文章に1時間"<br>悩まなくていい</h3>
+                        </div>
+                        <div class="c-benefit-card__body">
+                            <div class="c-benefit-card__description-wrap">
+                                <p class="c-benefit-card__description">
+                                    今までは、投稿1つ考えるだけで1時間。<br>「この表現でいいのかな？」「もっといい言い方があるのでは？」と手が止まっていたかもしれません。でもサロンチャームなら、型に沿ってスマホでポチポチするだけ。<span class="u-font-color--accent-pink">10分<span class="u-font-small u-font-color--accent-pink">※</span>ほどで"予約につながる文章"が完成します。余った時間は施術に集中することも、ゆっくりお茶を飲むことだってできます。</span>
+                                </p>
+                                <span class="u-font--attention u-font--attention--left c-benefit-card__attention">
+                                ※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。
+                                </span>
+                            </div>
+                            <figure class="c-benefit-card__image">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img_benefit-1.webp" loading="lazy" alt="12時を指し示そうな時計の画像" width="361" height="180">
+                            </figure>
                         </div>
                     </li>
 

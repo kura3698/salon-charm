@@ -23,7 +23,40 @@
         <section class="p-problem"></section>
         <section class="p-insight"></section>
         <section class="p-feature"></section>
-        <section class="p-benefit"></section>
+
+
+        <!-------------------------------
+//    サロンチャームを手に入れるとこうなる
+//------------------------------->
+        <section class="p-benefit">
+            <div class="__head">
+                <svg class="__head-bg" aria-hidden="true" width="393" height="249" viewBox="0 0 393 249" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_2007_515" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-94" y="0" width="578" height="173">
+                        <rect x="-94" width="578" height="173" fill="#D9D9D9" />
+                    </mask>
+                    <g mask="url(#mask0_2007_515)">
+                        <path d="M-16.5449 23.0492C157.729 -58.9636 252.788 111.135 412.858 23.0492C572.928 -65.0371 412.858 3908 412.858 3908H-16.5449C-16.5449 3908 -190.819 105.062 -16.5449 23.0492Z" fill="#E5647E" />
+                    </g>
+                    <mask id="mask1_2007_515" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-69" y="76" width="578" height="173">
+                        <rect x="509" y="249" width="578" height="173" transform="rotate(180 509 249)" fill="#D9D9D9" />
+                    </mask>
+                    <g mask="url(#mask1_2007_515)">
+                        <path d="M431.545 225.951C257.271 307.964 162.212 137.865 2.14221 225.951C-157.928 314.037 2.14221 -3659 2.14221 -3659H431.545C431.545 -3659 605.819 143.938 431.545 225.951Z" fill="#E5647E" />
+                    </g>
+                </svg>
+                <h2 class="__head-text">予約につながる文章作成ツール<br><span class="__head-text--accent">「サロンチャーム」</span><br>を手に入れると、こうなれます</h2>
+            </div>
+            <div class="l-inner p-benefit__inner">
+                <ol class="p-benefit__list">
+                    <li class="p-benefit__item c-benefit-card">
+                        <div class="c-benefit-card__head">
+                            <div class="c-benefit-card__head-bg"></div>
+                            <h3 class="c-benefit-card__head-text">もう"文章に1時間"<br>悩まなくていい</h3>
+                        </div>
+                    </li>
+
+                </ol>
+        </section>
 
         <!-------------------------------
         //    サロンチャームは誰でも安心して使えますｚｚ

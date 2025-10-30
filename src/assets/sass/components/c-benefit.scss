@@ -21,7 +21,7 @@
   background: #fa92a7;
   width: 100%;
   height: rm(101);
-  z-index: -1;
+  z-index: 1;
   &::before {
     content: "";
     position: absolute;
@@ -41,11 +41,12 @@
   translate: -50%;
   font-family: $ff-en;
   text-align: center;
-  font-size: rm(50);
+  font-size: rm(32);
   font-style: italic;
   font-weight: 400;
   line-height: 0.875;
-  top: rm(-27);
+  top: rm(-16);
+  z-index: 2;
   &::before {
     content: "Point";
     position: absolute;
@@ -56,6 +57,7 @@
     line-height: 0.875;
     left: 50%;
     transform: translateX(-50%);
+    top: rm(-13);
   }
 }
 
@@ -65,6 +67,7 @@
   font-size: rm(27);
   font-weight: 700;
   line-height: 1.18;
+  z-index: 2;
 }
 
 .c-benefit-card__body {
@@ -76,6 +79,7 @@
   padding-block-end: rm(10);
   padding-inline: rm(15);
   padding-block-start: rm(14);
+  border-radius: 0 0 rm(3) rm(3);
 }
 .c-benefit-card__description {
   color: $text-main-2;

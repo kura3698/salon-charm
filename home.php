@@ -29,8 +29,8 @@
 //    サロンチャームを手に入れるとこうなる
 //------------------------------->
         <section class="p-benefit">
-            <div class="__head">
-                <svg class="__head-bg" aria-hidden="true" width="393" height="249" viewBox="0 0 393 249" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="p-benefit__head">
+                <svg class="p-benefit__head-bg" aria-hidden="true" width="393" height="249" viewBox="0 0 393 249" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask id="mask0_2007_515" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-94" y="0" width="578" height="173">
                         <rect x="-94" width="578" height="173" fill="#D9D9D9" />
                     </mask>
@@ -44,7 +44,7 @@
                         <path d="M431.545 225.951C257.271 307.964 162.212 137.865 2.14221 225.951C-157.928 314.037 2.14221 -3659 2.14221 -3659H431.545C431.545 -3659 605.819 143.938 431.545 225.951Z" fill="#E5647E" />
                     </g>
                 </svg>
-                <h2 class="__head-text">予約につながる文章作成ツール<br><span class="__head-text--accent">「サロンチャーム」</span><br>を手に入れると、こうなれます</h2>
+                <h2 class="p-benefit__head-text">予約につながる文章作成ツール<br><span class="p-benefit__head-text--accent">「サロンチャーム」</span><br>を手に入れると、こうなれます</h2>
             </div>
             <div class="l-inner p-benefit__inner">
                 <ol class="p-benefit__list">
@@ -60,7 +60,7 @@
                                     今までは、投稿1つ考えるだけで1時間。<br>「この表現でいいのかな？」「もっといい言い方があるのでは？」と手が止まっていたかもしれません。でもサロンチャームなら、型に沿ってスマホでポチポチするだけ。<span class="u-font-color--accent-pink">10分<span class="u-font-small u-font-color--accent-pink">※</span>ほどで"予約につながる文章"が完成します。余った時間は施術に集中することも、ゆっくりお茶を飲むことだってできます。</span>
                                 </p>
                                 <span class="u-font--attention u-font--attention--left c-benefit-card__attention">
-                                ※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。
+                                    ※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。
                                 </span>
                             </div>
                             <figure class="c-benefit-card__image">
@@ -68,8 +68,93 @@
                             </figure>
                         </div>
                     </li>
-
+                    <li class="p-benefit__item c-benefit-card">
+                        <div class="c-benefit-card__head">
+                            <div class="c-benefit-card__bg"></div>
+                            <span class="c-benefit-card__number">02</span>
+                            <h3 class="c-benefit-card__text">ネタ切れから<br>サヨナラできる</h3>
+                        </div>
+                        <div class="c-benefit-card__body">
+                            <div class="c-benefit-card__description-wrap">
+                                <p class="c-benefit-card__description">
+                                    「今日は何を書けばいいんだろう？」<br>毎回頭を抱えていたインスタ投稿も、サロンチャームがあれば安心。30の型がインプットされているから、テーマ選びに迷いません。<span class="u-font-color--accent-pink">「ネタ切れで投稿が止まる」という心配がなくなる</span>ので、集客の波が安定します。
+                                </p>
+                            </div>
+                            <figure class="c-benefit-card__image">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img_benefit-2.webp" loading="lazy" alt="軽快にスマートフォンを操作する女性の画像" width="361" height="180">
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="p-benefit__item c-benefit-card">
+                        <div class="c-benefit-card__head">
+                            <div class="c-benefit-card__bg"></div>
+                            <span class="c-benefit-card__number">03</span>
+                            <h3 class="c-benefit-card__text">値下げなしで<br>新規が来てくれる</h3>
+                        </div>
+                        <div class="c-benefit-card__body">
+                            <div class="c-benefit-card__description-wrap">
+                                <p class="c-benefit-card__description">
+                                    これまで「割引しなきゃ誰も来ない…」と価格を下げていたオーナーさんも、サロンチャームを活用した文章なら、<span class="u-font-color--accent-pink">あなたの人柄やこだわりがしっかり伝わります。</span>「この人に会いたい」「ここに行ってみたい」と思って来てくれるから、<span class="u-font-color--accent-pink">値下げをしなくても新規予約が入るようになります。</span>
+                                </p>
+                            </div>
+                            <figure class="c-benefit-card__image">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img_benefit-3.webp" loading="lazy" alt="硬貨が階段状に積みあがっていきゴールにたどり着く画像" width="361" height="180">
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="p-benefit__item c-benefit-card">
+                        <div class="c-benefit-card__head">
+                            <div class="c-benefit-card__bg"></div>
+                            <span class="c-benefit-card__number">04</span>
+                            <h3 class="c-benefit-card__text">リピーターが自然と増える</h3>
+                        </div>
+                        <div class="c-benefit-card__body">
+                            <div class="c-benefit-card__description-wrap">
+                                <p class="c-benefit-card__description">
+                                    一度来店したお客様に「また行きたい」と思ってもらうには、接客や技術だけでは足りません。日々の投稿やメッセージで"人柄"が伝わることが大切です。サロンチャームなら、<span class="u-font-color--accent-pink">あなたの魅力を自然に文章にのせられるから、リピーターが増えて売上も安定します。</span>
+                                </p>
+                            </div>
+                            <figure class="c-benefit-card__image">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img_benefit-5.webp" loading="lazy" alt="女性が知り合いに合う雰囲気で来店する画像" width="361" height="180">
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="p-benefit__item c-benefit-card">
+                        <div class="c-benefit-card__head">
+                            <div class="c-benefit-card__bg"></div>
+                            <span class="c-benefit-card__number">05</span>
+                            <h3 class="c-benefit-card__text">施術や家族との時間が<br>戻ってくる</h3>
+                        </div>
+                        <div class="c-benefit-card__body">
+                            <div class="c-benefit-card__description-wrap">
+                                <p class="c-benefit-card__description">
+                                    「投稿を考えるだけで夜が終わってしまう…」そんな日々から解放されます。サロンチャームを使えば、短時間で文章が完成するので、家族と夕食をゆっくり食べたり、子どもと過ごしたり。<span class="u-font-color--accent-pink">サロンの集客とプライベート、どちらも大切にできるようになります。</span>
+                                </p>
+                            </div>
+                            <figure class="c-benefit-card__image">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img_benefit-5.webp" loading="lazy" alt="家族3人で公園を散歩している画像" width="361" height="180">
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="p-benefit__item c-benefit-card">
+                        <div class="c-benefit-card__head">
+                            <div class="c-benefit-card__bg"></div>
+                            <span class="c-benefit-card__number">06</span>
+                            <h3 class="c-benefit-card__text">自信を持って発信できる</h3>
+                        </div>
+                        <div class="c-benefit-card__body">
+                            <div class="c-benefit-card__description-wrap">
+                                <p class="c-benefit-card__description">
+                                    「これで合ってるのかな？」そんな不安を抱えながら投稿しても、思うように反応は返ってきません。でもサロンチャームなら、すでに結果が出ている"型"を使えるので安心。<span class="u-font-color--accent-pink">「これなら大丈夫」と自信を持って発信できるようになります。</span>その自信が、さらにお客様に伝わりやすくなるのです。
+                                </p>
+                            </div>
+                            <figure class="c-benefit-card__image">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img_benefit-6.webp" loading="lazy" alt="自信を持って発信する女性の画像" width="361" height="180">
+                            </figure>
+                        </div>
+                    </li>
                 </ol>
+            </div>
         </section>
 
         <!-------------------------------

@@ -7,7 +7,7 @@ function my_theme_enqueue_multiple_fonts_and_preload()
 
     $mincho_font_url = 'https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap';
     wp_enqueue_style('shippori-mincho', $mincho_font_url, array(), null, 'all');
-    $en_font_url = 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap';
+    $en_font_url = 'https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap';
     wp_enqueue_style('cormorant-garamond', $en_font_url, array(), null, 'all');
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_multiple_fonts_and_preload');

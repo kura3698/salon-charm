@@ -1,0 +1,97 @@
+@use "../config/" as *;
+
+.c-benefit-card {
+  border-radius: rm(3);
+}
+
+.c-benefit-card__head {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: rm(7);
+  justify-content: center;
+  color: $text-white;
+  height: rm(100);
+  text-align: center;
+}
+
+.c-benefit-card__bg {
+  position: absolute;
+  border-radius: rm(3) rm(3) 0 0;
+  background: #fa92a7;
+  width: 100%;
+  height: rm(101);
+  z-index: 1;
+  &::before {
+    content: "";
+    position: absolute;
+    width: rm(82);
+    height: rm(82);
+    background: #fa92a7;
+    border-radius: 50%;
+    top: rm(-41);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.c-benefit-card__number {
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  font-family: $ff-en;
+  text-align: center;
+  font-size: rm(32);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 0.875;
+  top: rm(-16);
+  z-index: 2;
+  &::before {
+    content: "Point";
+    position: absolute;
+    text-align: center;
+    font-size: rm(17);
+    font-style: italic;
+    font-weight: 300;
+    line-height: 0.875;
+    left: 50%;
+    transform: translateX(-50%);
+    top: rm(-13);
+  }
+}
+
+.c-benefit-card__text {
+  color: #fff;
+  font-family: $ff-mincho;
+  font-size: rm(27);
+  font-weight: 700;
+  line-height: 1.18;
+  z-index: 2;
+}
+
+.c-benefit-card__body {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.c-benefit-card__description-wrap {
+  background: #fff8fa;
+  padding-block-end: rm(10);
+  padding-inline: rm(15);
+  padding-block-start: rm(14);
+  border-radius: 0 0 rm(3) rm(3);
+}
+.c-benefit-card__description {
+  color: $text-main-2;
+  font-size: rm(14);
+  font-weight: 400;
+  line-height: 1.62;
+}
+
+.c-benefit-card__attention {
+  margin-block-start: rm(8);
+  display: inline-block;
+}
+
+.c-benefit-card__image {
+}

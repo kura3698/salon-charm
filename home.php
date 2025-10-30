@@ -28,15 +28,18 @@
         //    予約につながる型をツールにそのまま入れました
         //------------------------------->
         <section class="p-feature">
-            <h2 class="__head">
+            <div class="p-feature__bg">
+                <img src='./img/bg_pink.webp' alt='' width='393' height='1810' loading='lazy'>
+            </div>
+            <h2 class="p-feature__head">
                 <span class="u-font-size-large">30個</span>の<span class="u-font-size-large u-font-color--accent-yellow">"予約につながる型"</span>を<br>ツールにそのまま入れました
             </h2>
-            <div class="l-inner __inner" style="background:yellow;">
-                <p class="__description-1">
+            <div class="l-inner p-feature__inner">
+                <p class="p-feature__description p-feature__description--1">
                     実は、かなうのメルマガ限定特典として<br>無料で“予約につながる文章の30の型”を<br>お渡ししています。<br><span class="u-space-top">でも、</span>
                 </p>
-                <div class="__contents">
-                    <div class="__text-wrap">
+                <div class="p-feature__contents">
+                    <div class="p-feature__text-wrap">
                         <div class="c-feature-text-bg">
                             <p class="c-feature-text">その型を見ながら<br>自分で文章を考えるのは大変</p>
                         </div>
@@ -47,9 +50,35 @@
                             <p class="c-feature-text">添削してほしい･･･</p>
                         </div>
                     </div>
-                    <div class="__image">
+                    <div class="p-feature__image">
                         <img src='<?php echo esc_url(get_template_directory_uri()); ?>./img/img_nayami.webp' alt='頭を抱える男女のイラスト' width='311' height='153' loading='lazy'>
                     </div>
+                </div>
+                <p class="p-feature__description p-feature__description--2">
+                    そんな声もたくさんいただきました。
+                </p>
+                <p class="p-feature__description p-feature__description--3">
+                    しかし私は家事に、3人の育児に、<br>病弱な夫の代わりに大黒柱としての役割。<br>さらにライティングの仕事では、<br>毎月10万文字以上——<br>文庫本にすれば約250ページ、<br>つまり小説1冊分に相当する量を書いています。
+                </p>
+                <p class="p-feature__description p-feature__description--4">
+                    依頼が重なれば、30万文字を超えることも。<br>これは文庫本およそ750ページ、<br>小説3冊分に匹敵します。
+                </p>
+                <p class="p-feature__description p-feature__description--5">
+                    家事・育児と膨大な文章を日々書きながら、<br>全員の文章を添削してあげるのは、<br>正直、現実的に難しいのです。
+                </p>
+                <div class="p-feature__description p-feature__description--6">
+                    <span class="">それでも</span>
+                    <span class="">“なんとか力になりたい”</span>
+                </div>
+                <p class="p-feature__description p-feature__description--7">
+                    だから今回、<br>メルマガ限定特典の“30個の型”をインプットさせた<br><span class="u-font-color--accent-pink">【予約につながる文章作成ツール】</span><br>
+                    「サロンチャーム」をご用意しました。
+                </p>
+                <div class="p-feature__image--top">
+                    <img src='./img/img_feature-1.webp' alt='サロンチャームのトップ画面' width='330' height='167' loading='lazy'>
+                </div>
+                <div class="p-feature__image--sp">
+                    <img src='./img/img_feature-2.webp' alt='サロンチャームを実際使ったチャットの画像' width='347' height='340' loading='lazy'>
                 </div>
             </div>
 

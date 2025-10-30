@@ -20,7 +20,7 @@
   &--reverse {
     &::after {
       content: "";
-      background: url(../img/deco_tri.svg) center / contain no-repeat;
+      background: url(../img/deco_tri--reverse.svg) center / contain no-repeat;
       position: absolute;
       left: unset;
       right: rm(30);

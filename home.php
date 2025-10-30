@@ -28,13 +28,13 @@
         //    予約につながる型をツールにそのまま入れました
         //------------------------------->
         <section class="p-feature">
-            <div class="p-feature__bg">
-                <img src='./img/bg_pink.webp' alt='' width='393' height='1810' loading='lazy'>
-            </div>
             <h2 class="p-feature__head">
                 <span class="u-font-size-large">30個</span>の<span class="u-font-size-large u-font-color--accent-yellow">"予約につながる型"</span>を<br>ツールにそのまま入れました
             </h2>
             <div class="l-inner p-feature__inner">
+                <div class="p-feature__bg">
+                    <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/bg_pink.webp' alt='' width='393' height='1810' loading='lazy'>
+                </div>
                 <p class="p-feature__description p-feature__description--1">
                     実は、かなうのメルマガ限定特典として<br>無料で“予約につながる文章の30の型”を<br>お渡ししています。<br><span class="u-space-top">でも、</span>
                 </p>
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="p-feature__image">
-                        <img src='<?php echo esc_url(get_template_directory_uri()); ?>./img/img_nayami.webp' alt='頭を抱える男女のイラスト' width='311' height='153' loading='lazy'>
+                        <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/img_nayami.webp' alt='頭を抱える男女のイラスト' width='311' height='153' loading='lazy'>
                     </div>
                 </div>
                 <p class="p-feature__description p-feature__description--2">
@@ -63,22 +63,22 @@
                 <p class="p-feature__description p-feature__description--4">
                     依頼が重なれば、30万文字を超えることも。<br>これは文庫本およそ750ページ、<br>小説3冊分に匹敵します。
                 </p>
-                <p class="p-feature__description p-feature__description--5">
+                <p class="p-feature__description p-feature__description--5 u-font-color--accent-pink">
                     家事・育児と膨大な文章を日々書きながら、<br>全員の文章を添削してあげるのは、<br>正直、現実的に難しいのです。
                 </p>
                 <div class="p-feature__description p-feature__description--6">
-                    <span class="">それでも</span>
-                    <span class="">“なんとか力になりたい”</span>
+                    <p class="">それでも</p>
+                    <p class="">“なんとか力になりたい”</p>
                 </div>
                 <p class="p-feature__description p-feature__description--7">
                     だから今回、<br>メルマガ限定特典の“30個の型”をインプットさせた<br><span class="u-font-color--accent-pink">【予約につながる文章作成ツール】</span><br>
                     「サロンチャーム」をご用意しました。
                 </p>
                 <div class="p-feature__image--top">
-                    <img src='./img/img_feature-1.webp' alt='サロンチャームのトップ画面' width='330' height='167' loading='lazy'>
+                    <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/img_feature-1.webp' alt='サロンチャームのトップ画面' width='330' height='167' loading='lazy'>
                 </div>
                 <div class="p-feature__image--sp">
-                    <img src='./img/img_feature-2.webp' alt='サロンチャームを実際使ったチャットの画像' width='347' height='340' loading='lazy'>
+                    <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/img_feature-2.webp' alt='サロンチャームを実際使ったチャットの画像' width='347' height='340' loading='lazy'>
                 </div>
             </div>
 

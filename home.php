@@ -21,7 +21,22 @@
     <main class="l-salon-charm">
         <section class="p-fv"></section>
         <section class="p-problem"></section>
-        <section class="p-insight"></section>
+
+        <!-------------------------------
+        //    大手美容サロンは違います
+        //------------------------------->
+        <section class="p-insight">
+            <div class="l-inner __inner">
+                <div class="__bg">
+                    <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/bg_pink.webp' alt='' width='393' height='1810' loading='lazy'>
+                </div>
+                <p class="__but">でも･･･</p>
+                <div class="__container">
+                    <h2 class="__head">大手美容サロンは違います
+                    </h2>
+                </div>
+            </div>
+        </section>
 
 
         <!-------------------------------

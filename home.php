@@ -53,7 +53,32 @@
                     <p class="p-insight__description p-insight__description--5">
                         だからこそ多くのオーナーさんが、
                     </p>
-                    <div class="p-insight__flow"></div>
+                    <ul class="p-insight__flow c-flow">
+                        <li class="c-flow__item">
+                            <p class="c-flow__text">
+                                続けられない
+                            </p>
+                            <div class="c-flow__image">
+                                <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/img_flow-1.webp' alt='女性が悲しんでいるイラスト' width='72' height='72' loading='lazy'>
+                            </div>
+                        </li>
+                        <li class="c-flow__item">
+                            <p class="c-flow__text">
+                                結局割引
+                            </p>
+                            <div class="c-flow__image">
+                                <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/img_flow-2.webp' alt='天秤にお金が乗っているイラスト' width='58' height='58' loading='lazy'>
+                            </div>
+                        </li>
+                        <li class="c-flow__item">
+                            <p class="c-flow__text">
+                                集客できない
+                            </p>
+                            <div class="c-flow__image">
+                                <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/img_flow-3.webp' alt='お店に行列ができているイラスト' width='72' height='72' loading='lazy'>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>

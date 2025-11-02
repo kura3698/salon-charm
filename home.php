@@ -343,9 +343,37 @@
         <section class="p-plan"></section>
 
 
-
+        <!-------------------------------
+//    お客様の声
+//------------------------------->
         <section class="p-voice">
-            <h1>お客様の声</h1>
+            <h2 class="p-voice__head"><span>サロンチャームを使った</span><br>オーナーさんの声</h2>
+            <div class="l-inner p-voice__inner">
+                <p class="p-voice__attention u-font--attention u-font--attention--left">※下記は実際にご利用いただいた方の声の一例です。
+                </p>
+                <p class="p-voice__attention u-font--attention u-font--attention--left">
+                    ※効果には個人差があり、同様の成果を保証するものではありません。
+                </p>
+                <p class="p-voice__attention u-font--attention u-font--attention--left">
+                    ※写真はイメージです。</p>
+                <ul class="p-voice__list">
+                    <li class="p-voice__item">
+                        <figure class="p-voice__image">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img_voice-1.webp" loading="lazy" alt="数ヶ月で＋10万円1年後には＋30万円アップ！フォロワーは100人以下でした。それでもサロンチャームを使って週3回投稿を続けただけで数ヶ月で売上が＋10万円。1年経った今では、毎月＋30万円の売上アップにつながりました。個人サロンにとっては経営が変わるレベルの成果です。" width="361" height="341">
+                        </figure>
+                    </li>
+                    <li class="p-voice__item">
+                        <figure class="p-voice__image">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img_voice-2.webp" loading="lazy" alt="マルシェで知り合いインスタフォロー、後日来店、リピーター化イベントで出会った方にインスタをフォローしていただき、後日来店。その後もリピートしてくださるように。営業や値下げなしでまた行きたいと思ってもらえたのは、サロンチャームを使った文章で人柄が伝わったからだと思います。" width="361" height="341">
+                        </figure>
+                    </li>
+                    <li class="p-voice__item">
+                        <figure class="p-voice__image">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img_voice-3.webp" loading="lazy" alt="文章作成が1時間→10分に！ネタ切れゼロ文章を考えるのが本当に苦手で、投稿を作るのに毎回1時間かかっていました。でもサロンチャームなら、LINEで友達に送る感覚でポチポチ進めるだけ。今では10分※で投稿が完成し、ネタ切れの心配もなくなりました。もう文章で悩まなくていいのは本当に助かっています。" width="361" height="390">
+                        </figure>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <!-------------------------------

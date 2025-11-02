@@ -26,14 +26,34 @@
         //    大手美容サロンは違います
         //------------------------------->
         <section class="p-insight">
-            <div class="l-inner __inner">
-                <div class="__bg">
-                    <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/bg_pink.webp' alt='' width='393' height='1810' loading='lazy'>
-                </div>
-                <p class="__but">でも･･･</p>
-                <div class="__container">
-                    <h2 class="__head">大手美容サロンは違います
+            <div class="p-insight__bg">
+                <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/bg_pink.webp' alt='' width='393' height='1810' loading='lazy'>
+            </div>
+            <div class="l-inner p-insight__inner">
+                <p class="p-insight__but">でも･･･</p>
+                <div class="p-insight__container">
+                    <h2 class="p-insight__head">大手美容サロンは違います
                     </h2>
+
+                    <p class="p-insight__description p-insight__description--1">
+                        その力を知っているからこそ、<br>セールスライター（<span>商品を売るための文章を書く専門家）</span>を<br>雇い、徹底して言葉を磨いています。
+                    </p>
+                    <p class="p-insight__description p-insight__description--2">
+                        もちろんデザインも大切。<br><span class="u-font-color--accent-pink">けれど、それ以上に大切なのは文章です。</span><br>だから大手サロンでは、<br>たった1つのLP（商品販売ページ）の<br>文章をつくるのに、2〜3週間。<br>主力商品や100万円以上の高額商品の場合は、<br>3か月以上かけることもあるのです。
+                    </p>
+                    <p class="p-insight__description p-insight__description--3">
+                        でも、個人サロンのオーナーさんにとっては、<br>毎日のお客様対応に加えて、<br><span class="u-font-color--accent-pink">こまめなインスタ投稿やメッセージ作成に<br>数時間もかけるなんて、現実的ではありません。</span>
+                    </p>
+                    <p class="p-insight__description p-insight__description--4">
+                        「やらなきゃ」と分かっていても、<br>施術が終わった夜に疲れた体で<br>文章を考えるのは本当に大変。
+                    </p>
+                    <div class="p-insight__image">
+                        <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/img_insight-1.webp' alt='ベッドに座ってスマホを操作している女性の画像' width='300' height='200' loading='lazy'>
+                    </div>
+                    <p class="p-insight__description p-insight__description--5">
+                        だからこそ多くのオーナーさんが、
+                    </p>
+                    <div class="p-insight__flow"></div>
                 </div>
             </div>
         </section>

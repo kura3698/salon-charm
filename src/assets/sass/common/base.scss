@@ -9,11 +9,12 @@ html {
   @media screen and (min-width: 750px) {
     font-size: calc(16 / #{$sp-camp} * 750px); // ← 750px幅のときの値を固定
   }
+  scrollbar-gutter: stable;
 }
 
-// * {
-//   outline: 1px solid rgba(255, 0, 0, 0.2);
-// }
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.2);
+}
 
 body {
   color: $text-main-1;

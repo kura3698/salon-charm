@@ -24,7 +24,15 @@
         <!-------------------------------
         //    そのままだと損しているかも
         //------------------------------->
-        <section class="p-problem"></section>
+        <section class="p-problem">
+            <div class="l-inner p-problem__inner">
+                <h2 class="p-problem__head">そのままだと<span>損</span>しているかも…</h2>
+                <p class="p-problem__head-description"><em class="u-font-color--accent-yellow">月10万円、年間120万円</em><span>の</span><br>売上アップを逃しているかもしれません。</p>
+                <div class="p-problem__head-bg">
+                    <img src='<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_problem-1.webp' alt='両手で頭を抱える女性の画像' width='393' height='437' loading='lazy'>
+                </div>
+            </div>
+        </section>
 
         <!-------------------------------
         //    大手美容サロンは違います

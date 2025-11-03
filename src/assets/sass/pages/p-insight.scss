@@ -2,7 +2,7 @@
 
 .p-insight {
   position: relative;
-  padding-block: rm(40);
+  padding-block: rm(10) rm(40);
 }
 
 .p-insight__bg {
@@ -14,11 +14,12 @@
 
 .p-insight__inner {
   position: relative;
+  transform: translateY(rm(30));
 }
 .p-insight__but {
   position: absolute;
   border-radius: rm(7);
-  top: rm(-14);
+  top: rm(-18.5);
   left: 50%;
   translate: -50%;
   background: $accent-pink-light;
@@ -28,6 +29,7 @@
   font-size: rm(24);
   font-weight: 700;
   line-height: 1.16;
+  padding: rm(5) rm(21);
 
   &::before {
     content: "";
@@ -38,6 +40,7 @@
     left: 50%;
     translate: -50%;
     bottom: rm(-9);
+    z-index: -1;
   }
 }
 
@@ -46,17 +49,29 @@
   background: #fff;
   text-align: center;
   padding-inline: rm(5);
+  padding-block: rm(30) rm(45);
 }
 
 .p-insight__head {
   position: relative;
   z-index: 1;
-  font-family: "$ff-mincho";
+  font-family: $ff-mincho;
   font-size: rm(24);
   font-weight: 700;
   line-height: 0.94; /* 94.792% */
-  background: rgba(250, 146, 167, 0.6);
-  padding-inline: rm(8);
+  margin-inline: rm(20);
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 30%;
+    background: rgba(250, 146, 167, 0.6);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
 }
 
 .p-insight__description {
@@ -70,8 +85,10 @@
 }
 
 .p-insight__description--1 {
+  padding-block-start: rm(30);
   span {
     font-size: rm(12);
+    font-weight: 500;
   }
 }
 
@@ -83,11 +100,25 @@
 }
 
 .p-insight__image {
+  position: relative;
   border-radius: rm(2);
-  filter: blur(rm(2));
   aspect-ratio: 300/200;
   width: rm(300);
   margin-inline: auto;
+  margin-block-start: rm(12);
+  border-radius: rm(2);
+  overflow: hidden;
+  outline: rm(3) solid #fff;
+  outline-offset: rm(-2);
+
+  &::after {
+    position: absolute;
+    content: "";
+    inset: 0;
+    -moz-box-shadow: inset 0px 0px rm(8) rm(8) #fff;
+    -webkit-box-shadow: inset 0px 0px rm(8) rm(8) #fff;
+    box-shadow: inset 0px 0px rm(8) rm(8) #fff;
+  }
 }
 
 .p-insight__description--5 {
@@ -96,4 +127,16 @@
 
 .p-insight__flow {
   margin-inline: auto;
+  margin-block-start: rm(12);
+}
+.p-insight__description--6 {
+  margin-block-start: rm(12);
+}
+
+.p-insight__description--7 {
+  font-size: rm(23);
+  margin-block-start: rm(24);
+}
+.p-insight__description--8 {
+  margin-block-start: rm(12);
 }

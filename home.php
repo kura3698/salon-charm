@@ -79,6 +79,15 @@
                             </div>
                         </li>
                     </ul>
+                    <p class="p-insight__description p-insight__description--6">
+                        という悪循環にはまってしまうのです。
+                    </p>
+                    <p class="p-insight__description p-insight__description--7 u-font-color--accent-pink">
+                        その現実を変えるために
+                    </p>
+                    <p class="p-insight__description p-insight__description--8">
+                        私は大手サロンでも使われている<br><span class="u-font-color--accent-pink">“売れる文章の型”を30個まとめ、</span><br>誰でも使える形に落とし込みました。
+                    </p>
                 </div>
             </div>
         </section>

@@ -25,12 +25,15 @@
         //    そのままだと損しているかも
         //------------------------------->
         <section class="p-problem">
-            <div class="l-inner p-problem__inner">
+            <div class="l-inner p-problem__inner--top">
                 <h2 class="p-problem__head">そのままだと<span>損</span>しているかも…</h2>
                 <p class="p-problem__head-description"><em class="u-font-color--accent-yellow">月10万円、年間120万円</em><span>の</span><br>売上アップを逃しているかもしれません。</p>
                 <div class="p-problem__head-bg">
                     <img src='<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_problem-1.webp' alt='両手で頭を抱える女性の画像' width='393' height='437' loading='lazy'>
                 </div>
+            </div>
+            <div class="l-inner p-problem__inner--under u-font--attention u-font--attention--left">
+                <p class="p-problem__attention">※監修内容は文章作成に関する部分であり、サロン運営や経営全般を保証するものではありません。<br>※ここでご紹介しているのは、実際にご利用いただいた方の一例です。<br>※成果には個人差があり、必ず同じ結果を保証するものではありません。<br>※文章作成時間には個人差があります。慣れによって所要時間が短縮されるケースもあります。</p>
             </div>
         </section>
 

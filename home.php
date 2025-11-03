@@ -20,6 +20,10 @@
     </svg>
     <main class="l-salon-charm">
         <section class="p-fv"></section>
+
+        <!-------------------------------
+        //    そのままだと損しているかも
+        //------------------------------->
         <section class="p-problem"></section>
 
         <!-------------------------------

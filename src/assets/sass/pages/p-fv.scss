@@ -1,0 +1,12 @@
+@use '../config/' as *;
+
+.p-fv{}
+
+.p-fv__head {
+@include visually-hidden;
+}
+
+.p-fv__image{
+    width: 100%;
+    height: auto;
+}

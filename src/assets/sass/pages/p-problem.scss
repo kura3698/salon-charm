@@ -1,0 +1,230 @@
+@use "../config/" as *;
+
+.p-problem {
+  background: #ececec;
+  padding-block-end: rm(44);
+}
+
+.p-problem__inner--top {
+  position: relative;
+  z-index: 0;
+  height: rm(437);
+}
+
+.p-problem__head {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 rm(8) #000, 0 0 rm(8) #000;
+  font-family: $ff-mincho;
+  font-size: rm(20);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+  width: fit-content;
+  display: block;
+  padding-inline: rm(10);
+  z-index: 1;
+  position: relative;
+  margin-inline: auto;
+  padding-block-start: rm(40);
+  span {
+    font-size: rm(30);
+  }
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 38%;
+    background: rgba(31, 31, 31, 0.7);
+    position: absolute;
+    left: 0;
+    bottom: rm(-4);
+    right: 0;
+    z-index: -1;
+  }
+}
+
+.p-problem__head-description {
+  letter-spacing: 0.03em;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 rm(2) rgba(0, 0, 0, 0.8), 0 0 8px rgba(0, 0, 0, 0.6);
+  font-family: $ff-mincho;
+  font-size: rm(19);
+  font-weight: 700;
+  line-height: 1.4;
+  white-space: nowrap;
+  margin-block-start: rm(20);
+
+  em {
+    font-size: rm(29);
+  }
+  span {
+    font-size: rm(16);
+  }
+}
+
+.p-problem__head-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: calc(100% + 2px);
+}
+
+.p-problem__inner--under {
+  padding-block-start: rm(7);
+  position: relative;
+  z-index: 0;
+}
+.p-problem__container-1 {
+  position: relative;
+  border-radius: rm(2);
+  background: #fff;
+  padding-block: rm(33) rm(48.25);
+  z-index: 2;
+  padding-inline: rm(9);
+  margin-block-start: rm(40);
+}
+
+.p-problem__image {
+  width: rm(98);
+  height: rm(135);
+  position: absolute;
+  top: rm(92);
+  right: rm(-20);
+  text-align: center;
+}
+.p-problem__text-wrap {
+  display: flex;
+  gap: rm(4);
+  flex-direction: column;
+}
+.p-problem__text {
+  width: fit-content;
+  font-family: $ff-mincho;
+  margin-inline: auto;
+  display: inline-block;
+  color: $text-white;
+  font-size: rm(22);
+  font-weight: 700;
+  line-height: 1.63;
+  padding-inline: rm(10);
+  border-radius: rm(8);
+  background: #4b5563;
+}
+
+.p-problem__description-1 {
+  color: $text-main-2;
+  font-weight: 500;
+  line-height: 1.62;
+  text-align: center;
+
+  &--1 {
+    margin-block-start: rm(31);
+  }
+
+  &--2 {
+    font-weight: 700;
+    margin-block-start: rm(26.5);
+  }
+  &--3 {
+    position: relative;
+    font-weight: 700;
+    margin-block-start: rm(21);
+    background: linear-gradient(transparent 0%, rgba(255, 218, 231, 0.44) 0%);
+    color: $accent-pink;
+    font-size: rm(19);
+    font-weight: 700;
+    line-height: 1.75;
+    padding-inline-start: rm(35);
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: rm(28);
+      height: rm(2);
+      left: rm(5);
+      background: $accent-pink;
+    }
+  }
+  &--4 {
+    margin-block-start: rm(16);
+  }
+  &--5 {
+    margin-block-start: rm(20);
+  }
+  &--6 {
+    margin-block-start: rm(20);
+    font-weight: 700;
+  }
+  &--7 {
+    margin-block-start: rm(26);
+  }
+  &--8 {
+    position: absolute;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    font-family: $ff-mincho;
+    font-size: rm(22);
+    font-weight: 700;
+    line-height: 1.27;
+    bottom: rm(-38);
+    left: 50%;
+    translate: -50%;
+    width: rm(76);
+    height: rm(76);
+    border-radius: 50%;
+    background: $accent-pink-light;
+  }
+}
+
+.p-problem__container-2 {
+  position: relative;
+  z-index: 1;
+  margin-block-start: rm(-42);
+}
+
+.p-problem__container-2-bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  width: calc(100vw + 2px);
+}
+
+.p-problem__description-2 {
+  color: $text-white;
+  text-align: center;
+  font-family: $ff-mincho;
+  font-size: rm(26);
+  font-weight: 700;
+  line-height: 1.3;
+  padding-block-start: rm(80);
+  span {
+    font-weight: 700;
+    font-size: rm(18);
+  }
+}
+.p-problem__container-3 {
+  padding-block-start: rm(66);
+  text-align: center;
+}
+.p-problem__description-3 {
+  color: $text-main-2;
+  font-family: $ff-mincho;
+  font-size: rm(24);
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.p-problem__description-4 {
+  background: #fff;
+  color: $text-main-2;
+  font-weight: 500;
+  line-height: 1.625;
+  margin-block-start: rm(10);
+}

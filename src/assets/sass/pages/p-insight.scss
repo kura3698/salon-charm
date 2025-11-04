@@ -2,7 +2,7 @@
 
 .p-insight {
   position: relative;
-  padding-block: rm(10) rm(40);
+  padding-block: rm(40);
 }
 
 .p-insight__bg {
@@ -14,7 +14,7 @@
 
 .p-insight__inner {
   position: relative;
-  transform: translateY(rm(30));
+  margin-block-end: rm(-30);
 }
 .p-insight__but {
   position: absolute;

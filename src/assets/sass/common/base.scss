@@ -9,6 +9,7 @@ html {
   @media screen and (min-width: 750px) {
     font-size: calc(16 / #{$sp-camp} * 750px); // ← 750px幅のときの値を固定
   }
+  scrollbar-gutter: stable;
 }
 
 // * {

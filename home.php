@@ -60,9 +60,11 @@
 
                 </div>
                 <div class="p-problem__container-2">
-                    <svg class="p-problem__container-2-bg" width="393" height="205" viewBox="0 0 393 205" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 0H393V162.193L195 205L0 162.193V0Z" fill="#E5647E" />
-                    </svg>
+                    <div class="p-problem__container-2-bg">
+                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 393 205" fill="none">
+                            <path d="M0 0H393V162.193L195 205L0 162.193V0Z" fill="#E5647E" />
+                        </svg>
+                    </div>
                     <p class="p-problem__description-2"><span>文章をほんの少し変えるだけで</span><br>売上は大きく変わります</p>
                 </div>
                 <div class="p-problem__container-3">

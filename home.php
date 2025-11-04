@@ -29,11 +29,34 @@
                 <h2 class="p-problem__head">そのままだと<span>損</span>しているかも…</h2>
                 <p class="p-problem__head-description"><em class="u-font-color--accent-yellow">月10万円、年間120万円</em><span>の</span><br>売上アップを逃しているかもしれません。</p>
                 <div class="p-problem__head-bg">
-                    <img src='<?php echo esc_url( get_template_directory_uri() ); ?>/img/img_problem-1.webp' alt='両手で頭を抱える女性の画像' width='393' height='437' loading='lazy'>
+                    <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/img_problem-1.webp' alt='両手で頭を抱える女性の画像' width='393' height='437' loading='lazy'>
                 </div>
             </div>
             <div class="l-inner p-problem__inner--under u-font--attention u-font--attention--left">
                 <p class="p-problem__attention">※監修内容は文章作成に関する部分であり、サロン運営や経営全般を保証するものではありません。<br>※ここでご紹介しているのは、実際にご利用いただいた方の一例です。<br>※成果には個人差があり、必ず同じ結果を保証するものではありません。<br>※文章作成時間には個人差があります。慣れによって所要時間が短縮されるケースもあります。</p>
+                <div class="p-problem__container">
+                    <div class="p-problem__image">
+                        <img src='./img/img_problem-2.webp' alt='腕を組んで悩んでいる女性のイラスト' width='98' height='135' loading='lazy'>
+                    </div>
+                    <div class="p-problem__text-wrap">
+                        <span class="p-problem__text">インスタに投稿しても、</span>
+                        <span class="p-problem__text">予約につながらないんです…</span>
+                    </div>
+                    <!-- 1 -->
+                    <p class="p-problem__description-1 p-problem__description--1">あるオーナーさんが、<br>打ち合わせのときにそう漏らしました。</p>
+                    <!-- 2 -->
+                    <p class="p-problem__description-1 p-problem__description--2">『LINEを送っても既読だけで返事がこない。<br>結局、割引しないと誰も来てくれなくて…』</p>
+                    <!-- 3 -->
+                    <p class="p-problem__description-1 p-problem__description--3">これは特別な悩みではありません。</p>
+                    <!-- 4 -->
+                    <p class="p-problem__description-1 p-problem__description--4">知人や他のクライアントからも、<br>私は何度も同じ言葉を聞いてきました。</p>
+                    <!-- 5 -->
+                    <p class="p-problem__description-1 p-problem__description--5">でも、それはオーナーさんが<br>悪いわけではありません。</p>
+                    <!-- 6 -->
+                    <p class="p-problem__description-1 p-problem__description--6">日本語で文章が書けるだけでは、<br>小説家にはなれませんよね？</p>
+                    <!-- 7 -->
+                    <p class="p-problem__description-1 p-problem__description--7">それと同じで、ただ文章を書くだけでは<br><span class="u-font-color--accent-pink">"予約につながる文章"</span>にはならないんです。</p>
+                </div>
             </div>
         </section>
 

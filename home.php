@@ -32,30 +32,42 @@
                     <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/img_problem-1.webp' alt='両手で頭を抱える女性の画像' width='393' height='437' loading='lazy'>
                 </div>
             </div>
-            <div class="l-inner p-problem__inner--under u-font--attention u-font--attention--left">
-                <p class="p-problem__attention">※監修内容は文章作成に関する部分であり、サロン運営や経営全般を保証するものではありません。<br>※ここでご紹介しているのは、実際にご利用いただいた方の一例です。<br>※成果には個人差があり、必ず同じ結果を保証するものではありません。<br>※文章作成時間には個人差があります。慣れによって所要時間が短縮されるケースもあります。</p>
-                <div class="p-problem__container">
+            <div class="l-inner p-problem__inner--under">
+                <p class="p-problem__attention u-font--attention u-font--attention--left">※監修内容は文章作成に関する部分であり、サロン運営や経営全般を保証するものではありません。<br>※ここでご紹介しているのは、実際にご利用いただいた方の一例です。<br>※成果には個人差があり、必ず同じ結果を保証するものではありません。<br>※文章作成時間には個人差があります。慣れによって所要時間が短縮されるケースもあります。</p>
+                <div class="p-problem__container-1">
                     <div class="p-problem__image">
-                        <img src='./img/img_problem-2.webp' alt='腕を組んで悩んでいる女性のイラスト' width='98' height='135' loading='lazy'>
+                        <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/img_problem-2.webp' alt='腕を組んで悩んでいる女性のイラスト' width='98' height='135' loading='lazy'>
                     </div>
                     <div class="p-problem__text-wrap">
                         <span class="p-problem__text">インスタに投稿しても、</span>
                         <span class="p-problem__text">予約につながらないんです…</span>
                     </div>
                     <!-- 1 -->
-                    <p class="p-problem__description-1 p-problem__description--1">あるオーナーさんが、<br>打ち合わせのときにそう漏らしました。</p>
+                    <p class="p-problem__description-1 p-problem__description-1--1">あるオーナーさんが、<br>打ち合わせのときにそう漏らしました。</p>
                     <!-- 2 -->
-                    <p class="p-problem__description-1 p-problem__description--2">『LINEを送っても既読だけで返事がこない。<br>結局、割引しないと誰も来てくれなくて…』</p>
+                    <p class="p-problem__description-1 p-problem__description-1--2">『LINEを送っても既読だけで返事がこない。<br>結局、割引しないと誰も来てくれなくて…』</p>
                     <!-- 3 -->
-                    <p class="p-problem__description-1 p-problem__description--3">これは特別な悩みではありません。</p>
+                    <p class="p-problem__description-1 p-problem__description-1--3">これは特別な悩みではありません。</p>
                     <!-- 4 -->
-                    <p class="p-problem__description-1 p-problem__description--4">知人や他のクライアントからも、<br>私は何度も同じ言葉を聞いてきました。</p>
+                    <p class="p-problem__description-1 p-problem__description-1--4">知人や他のクライアントからも、<br>私は何度も同じ言葉を聞いてきました。</p>
                     <!-- 5 -->
-                    <p class="p-problem__description-1 p-problem__description--5">でも、それはオーナーさんが<br>悪いわけではありません。</p>
+                    <p class="p-problem__description-1 p-problem__description-1--5">でも、それはオーナーさんが<br>悪いわけではありません。</p>
                     <!-- 6 -->
-                    <p class="p-problem__description-1 p-problem__description--6">日本語で文章が書けるだけでは、<br>小説家にはなれませんよね？</p>
+                    <p class="p-problem__description-1 p-problem__description-1--6">日本語で文章が書けるだけでは、<br>小説家にはなれませんよね？</p>
                     <!-- 7 -->
-                    <p class="p-problem__description-1 p-problem__description--7">それと同じで、ただ文章を書くだけでは<br><span class="u-font-color--accent-pink">"予約につながる文章"</span>にはならないんです。</p>
+                    <p class="p-problem__description-1 p-problem__description-1--7">それと同じで、ただ文章を書くだけでは<br><span class="u-font-color--accent-pink">"予約につながる文章"</span>にはならないんです。</p>
+                    <p class="p-problem__description-1 p-problem__description-1--8">実は…</p>
+
+                </div>
+                <div class="p-problem__container-2">
+                    <svg class="p-problem__container-2-bg" width="393" height="205" viewBox="0 0 393 205" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0H393V162.193L195 205L0 162.193V0Z" fill="#E5647E" />
+                    </svg>
+                    <p class="p-problem__description-2"><span>文章をほんの少し変えるだけで</span><br>売上は大きく変わります</p>
+                </div>
+                <div class="p-problem__container-3">
+                    <p class="p-problem__description-3">けれど…</p>
+                    <p class="p-problem__description-4">その事実を知らない人が多い。<br>「それっぽい文章」を真似すれば書ける気になるから、<br><span class="u-font-color--accent-pink">ライティングはどうしても甘く見られてしまうんです。</span></p>
                 </div>
             </div>
         </section>

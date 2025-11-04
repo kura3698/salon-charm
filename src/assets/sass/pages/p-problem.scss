@@ -22,12 +22,12 @@
   letter-spacing: 0.03em;
   text-align: center;
   width: fit-content;
-  display: inline-block;
+  display: block;
   padding-inline: rm(10);
   z-index: 1;
   position: relative;
   margin-inline: auto;
-  margin-block-start: rm(40);
+  padding-block-start: rm(40);
   span {
     font-size: rm(30);
   }
@@ -39,7 +39,7 @@
     background: rgba(31, 31, 31, 0.7);
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: rm(-4);
     right: 0;
     z-index: -1;
   }
@@ -77,12 +77,14 @@
   position: relative;
   z-index: 0;
 }
-.p-problem__container {
+.p-problem__container-1 {
   position: relative;
   border-radius: rm(2);
   background: #fff;
   padding-block: rm(33) rm(48.25);
   z-index: 2;
+  padding-inline: rm(9);
+  margin-block-start: rm(40);
 }
 
 .p-problem__image {
@@ -116,6 +118,7 @@
   color: $text-main-2;
   font-weight: 500;
   line-height: 1.62;
+  text-align: center;
 
   &--1 {
     margin-block-start: rm(31);
@@ -135,15 +138,15 @@
     font-weight: 700;
     line-height: 1.25;
     padding-inline-start: rm(35);
+    display: flex;
+    align-items: center;
 
     &::before {
       content: "";
       position: absolute;
-      width: rm(33);
+      width: rm(28);
       height: rm(2);
-      top: 50%;
-      translate: 0 -50%;
-      left: 0;
+      left: rm(5);
       background: $accent-pink;
     }
   }
@@ -160,4 +163,63 @@
   &--7 {
     margin-block-start: rm(26);
   }
+  &--8 {
+    position: absolute;
+    color: #fff;
+
+    font-family: $ff-mincho;
+    font-size: rm(22);
+    font-weight: 700;
+    line-height: 1.27;
+    bottom: rm(-38);
+    left: 50%;
+    translate: -50%;
+    width: rm(76);
+    height: rm(76);
+    border-radius: 50%;
+    background: $accent-pink;
+  }
+}
+
+.p-problem__container-2 {
+  position: relative;
+  z-index: 1;
+  margin-inline-start: rm(-42);
+}
+
+.p-problem__container-2-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.p-problem__description-2 {
+  color: $text-white;
+  text-align: center;
+  font-family: $ff-mincho;
+  font-size: rm(26);
+  font-weight: 700;
+  line-height: 1.07;
+  padding-block-start: rm(96);
+  span {
+    font-weight: 700;
+    font-size: rm(18);
+  }
+}
+.p-problem__container-3 {
+  padding-block-start: rm(11);
+  text-align: center;
+}
+.p-problem__description-3 {
+  color: $text-main-2;
+  font-family: $ff-mincho;
+  font-size: rm(24);
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.p-problem__description-4 {
+  background: #fff;
+  color: $text-main-2;
+  font-weight: 500;
+  line-height: 1.625;
 }

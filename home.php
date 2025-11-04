@@ -19,7 +19,12 @@
         </symbol>
     </svg>
     <main class="l-salon-charm">
-        <section class="p-fv"></section>
+        <section class="p-fv">
+            <h1 class="p-fv__head ">予約につながる文章が10分で完成するサロン専用ライティングツール「サロンチャーム」</h1>
+            <div class="p-fv__image">
+                <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/img_fv.webp' alt='芸能人も通う大手サロンの広告ライター「かなう」が監修。スマホでポチポチするだけ予約につながる文章が約10分で完成する「サロンチャーム」' width='393' height='576'>
+            </div>
+        </section>
 
         <!-------------------------------
         //    そのままだと損しているかも

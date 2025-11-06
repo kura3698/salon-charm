@@ -18,6 +18,11 @@
             <path d="M6.98542 0.00213774C8.69914 0.00213774 10.4129 -0.00170342 12.1266 0.00388373C13.258 0.00772489 13.9919 0.737546 13.9943 1.88536C14.0019 5.29352 14.0019 8.70203 13.9929 12.1102C13.9898 13.2842 13.2605 13.9959 12.0838 13.9969C8.67272 14.0004 5.26162 14.0004 1.85018 13.9962C0.713838 13.9948 0.00575551 13.2957 0.00401746 12.1643C-0.0015443 8.70727 -0.0015443 5.24987 0.00366985 1.79247C0.0054079 0.727769 0.728437 0.00842329 1.79525 0.00388373C3.52531 -0.00344941 5.25536 0.00178855 6.98542 0.00213774ZM3.5479 6.01566C3.39426 6.00309 3.32787 6.07956 3.25904 6.14835C3.00424 6.40257 2.76161 6.67075 2.49291 6.9096C2.26626 7.11074 2.27808 7.25146 2.49291 7.46273C3.46135 8.41499 4.42319 9.37458 5.36625 10.352C5.62105 10.616 5.76635 10.6153 6.02428 10.3527C7.61807 8.72961 9.2289 7.12366 10.8352 5.51316C11.7539 4.59198 11.7435 4.6042 10.8307 3.66207C10.5554 3.37782 10.4063 3.39738 10.1389 3.67115C8.77805 5.0641 7.389 6.42911 6.02671 7.821C5.76705 8.08639 5.61514 8.08535 5.36625 7.81612C4.86674 7.27556 4.3335 6.76608 3.81209 6.24613C3.72136 6.15568 3.61916 6.07746 3.54756 6.01566H3.5479Z" fill="#E5647E" />
         </symbol>
     </svg>
+    <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" aria-hidden="true">
+        <symbol id="cta-icon" viewBox="0 0 9 11" fill="none">
+            <path d="M8.38415 4.41444C9.01346 4.80572 9.01346 5.72162 8.38415 6.1129L1.52802 10.3758C0.861893 10.79 0 10.3109 0 9.52655V1.00079C0 0.216401 0.861892 -0.262614 1.52802 0.151559L8.38415 4.41444Z" fill="white" />
+        </symbol>
+    </svg>
     <main class="l-salon-charm">
         <section class="p-fv">
             <h1 class="p-fv__head ">予約につながる文章が10分で完成するサロン専用ライティングツール「サロンチャーム」</h1>
@@ -666,7 +671,34 @@
                     <div class="p-action__text p-action__text--4 ">これまでの努力を無駄にしないために。<br>そして、<br><span class="u-font-color--accent-pink">あなたの想いをきちんとお客様に届けるために。</span><br>次は、あなたのサロンで体感してください。</div>
                     <div class="p-action__text p-action__text--5 u-font--attention">※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。</div>
                 </div>
-            </div>
+                <div class="c-cta">
+                    <div class="c-cta__container">
+                        <p class="c-cta__head">リリース記念
+                        </p>
+                        <div class="c-cta__price">
+                            <div class="c-cta__normal-price-wrap">
+                                <div class="c-cta__normal-contents">
+                                    <p class="c-cta__normal-price-text">通常価格</p>
+                                    <p class="c-cta__normal-price-amount">49,800<span>円</span></p>
+                                </div>
+                                <div class="c-cta__normal-price-now">今だけ！</div>
+                            </div>
+                            <div class="c-cta__limited-contents">
+                                <p class="c-cta__limited-price-text">期間限定</p>
+                                <p class="c-cta__limited-price-amount">19,800<span>円</span></p>
+                            </div>
+                        </div>
+                        <button class="c-cta__button">
+                            <a href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">"自動で予約につながる文章術"を<br>手に入れる</a>
+                            <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14" role="presentation">
+                                <use href="#cta-icon"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <p class="c-cta__attention">
+                        ※価格や提供条件は予告なく変更になる場合があります。
+                    </p>
+                </div>
         </section>
     </main>
 

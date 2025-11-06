@@ -671,10 +671,10 @@
                     <div class="p-action__text p-action__text--4 ">これまでの努力を無駄にしないために。<br>そして、<br><span class="u-font-color--accent-pink">あなたの想いをきちんとお客様に届けるために。</span><br>次は、あなたのサロンで体感してください。</div>
                     <div class="p-action__text p-action__text--5 u-font--attention">※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。</div>
                 </div>
+
                 <div class="c-cta">
                     <div class="c-cta__container">
-                        <p class="c-cta__head">リリース記念
-                        </p>
+                        <p class="c-cta__head">リリース記念</p>
                         <div class="c-cta__price">
                             <div class="c-cta__normal-price-wrap">
                                 <div class="c-cta__normal-contents">
@@ -688,18 +688,16 @@
                                 <p class="c-cta__limited-price-amount">19,800<span>円</span></p>
                             </div>
                         </div>
-                        <button class="c-cta__button">
-                            <a href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">"自動で予約につながる文章術"を<br>手に入れる</a>
+                        <a href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">"自動で予約につながる文章術"を<br>手に入れる
                             <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14" role="presentation">
                                 <use href="#cta-icon"></use>
                             </svg>
-                        </button>
+                        </a>
+
                     </div>
-                    <p class="c-cta__attention">
-                        ※価格や提供条件は予告なく変更になる場合があります。
-                    </p>
+                    <div class="c-cta__attention">※価格や提供条件は予告なく変更になる場合があります。
+                    </div>
                 </div>
         </section>
     </main>
-
     <?php get_footer(); ?>

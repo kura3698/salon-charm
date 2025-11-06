@@ -20,6 +20,7 @@
 }
 
 .c-cta__head {
+  border-radius: rm(13) rm(13) 0 0;
   color: $text-white;
   text-align: center;
   font-size: rm(20);
@@ -27,6 +28,7 @@
   line-height: 1;
   background: $accent-pink-light;
   padding-block: rm(10) rm(14);
+  margin-inline: rm(-14);
 }
 
 .c-cta__price {
@@ -47,7 +49,7 @@
   align-items: center;
   justify-content: center;
   padding: rm(6) rm(16);
-  border: rm(1) solid $text-light-gray;
+  outline: rm(1) solid $accent-pink-light;
   color: #6b7280;
   text-align: center;
   font-weight: 400;
@@ -62,6 +64,7 @@
   position: relative;
   font-size: rm(27);
   line-height: 1.03;
+
   span {
     font-size: rm(15);
   }
@@ -72,19 +75,20 @@
     height: rm(2);
     transform: rotate(-10.659deg);
     left: 0;
-    top: 0;
+    top: rm(14);
     background: $accent-pink-light;
   }
 }
 
 .c-cta__normal-price-now {
+  line-height: rm(57);
+  color: $text-white;
   font-size: rm(12);
   font-weight: 700;
-  line-height: 1.33;
-  vertical-align: middle;
   background: $accent-pink-light;
   padding-inline: rm(4) rm(10);
-  border: rm(1) solid $text-light-gray;
+  height: 100%;
+  clip-path: polygon(0% 0%, 70% 0, 100% 50%, 70% 100%, 0% 100%);
 }
 
 .c-cta__limited-contents {
@@ -92,6 +96,7 @@
   flex-direction: column;
   justify-content: center;
   color: $text-accent-pink;
+  align-items: center;
 }
 
 .c-cta__limited-price-text {
@@ -109,7 +114,7 @@
   }
 }
 
-.c-cta__button {
+.c-cta__link {
   position: relative;
   border-radius: 9999px;
   background: linear-gradient(180deg, #76c171 0%, #3a8e1a 100%);
@@ -125,16 +130,14 @@
       opacity: 0.6;
     }
   }
-}
-
-.c-cta__link {
   text-align: center;
   color: $text-white;
   font-size: rm(16);
   font-weight: 700;
   line-height: 1.37;
-  padding-block: rm(15);
+  padding-block: rm(8);
   font-family: $ff;
+  width: 100%;
 }
 
 .c-cta__link-icon {

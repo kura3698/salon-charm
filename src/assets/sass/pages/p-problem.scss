@@ -3,6 +3,7 @@
 .p-problem {
   background: #ececec;
   padding-block-end: rm(44);
+  overflow-x: clip;
 }
 
 .p-problem__inner--top {
@@ -191,9 +192,9 @@
 .p-problem__container-2-bg {
   position: absolute;
   z-index: -1;
-  width: 100%;
   height: auto;
-  width: calc(100vw + 2px);
+  width: rm(393);
+  margin-inline-start: rm(-18);
 }
 
 .p-problem__description-2 {

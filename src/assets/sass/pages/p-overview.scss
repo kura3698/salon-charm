@@ -1,4 +1,69 @@
-@use '../config/' as *;
+@use "../config/" as *;
 
-.p-overview{}
+.p-overview {
+}
 
+.p-overview__head {
+  color: $text-white;
+  text-align: center;
+  font-family: $ff-mincho;
+  font-size: rm(24);
+  font-weight: 800;
+  line-height: 1.27;
+  padding-block: rm(34);
+  background: $accent-pink;
+}
+
+.p-overview__inner {
+  padding-block: rm(40);
+}
+
+.p-overview__table {
+  border-collapse: separate;
+  border-spacing: rm(8) rm(4);
+  border: none;
+  width: calc(100% + rm(16)); //ボーダー分を考慮
+  margin-inline-start: rm(-8);
+}
+
+.p-overview__contents {
+}
+
+.p-overview__item {
+}
+
+.p-overview__table-head {
+  background: $accent-pink-light;
+  color: $text-white;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.42;
+  vertical-align: middle;
+  padding-inline: rm(23);
+  width: rm(102);
+}
+
+.p-overview__table-data {
+  padding: rm(7) rm(11);
+  background: #fff5f5;
+  font-weight: 500;
+  line-height: 1.42;
+  li {
+    font-weight: 500;
+    padding-inline-start: rm(15);
+    position: relative;
+
+    &::before {
+      content: "・";
+      position: absolute;
+      left: 0;
+    }
+  }
+
+  &--price {
+    line-height: 1.2;
+    span {
+      display: block;
+    }
+  }
+}

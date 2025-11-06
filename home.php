@@ -392,7 +392,7 @@
 
 
 
-        <!--
+        
         <section class="p-overview">
             <h2 class="p-overview__head">サロンチャームの概要</h2>
             <div class="l-inner p-overview__inner">
@@ -446,7 +446,7 @@
                 </table>
             </div>
 
-        </section> -->
+        </section>
 
 
 

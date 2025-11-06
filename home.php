@@ -392,7 +392,7 @@
 
 
 
-        
+
         <section class="p-overview">
             <h2 class="p-overview__head">サロンチャームの概要</h2>
             <div class="l-inner p-overview__inner">
@@ -401,7 +401,7 @@
                         <tr class="p-overview__item">
                             <th class="p-overview__table-head">商品名</th>
                             <td class="p-overview__table-data">
-                                <span class="product-name-text">予約につながる文章作成ツール<br>「サロンチャーム」</span>
+                                予約につながる文章作成ツール<br>「サロンチャーム」
                             </td>
                         </tr>
                         <tr class="p-overview__item">
@@ -426,11 +426,10 @@
                         </tr>
                         <tr class="p-overview__item">
                             <th class="p-overview__table-head">価格</th>
-                            <td class="p-overview__table-data">
+                            <td class="p-overview__table-data p-overview__table-data--price">
                                 <span class="u-font-color--accent-pink">
-                                    リリース記念価格<br>19,800円（買い切り）
-                                    <span class="price-note">※通常価格<span class="original-price">49,800円</span></span>
-                                </span>
+                                    リリース記念価格<br>19,800円（買い切り）<br></span>
+                                <span class="u-font--attention u-font--attention--left">※通常価格49,800円</span>
                             </td>
                         </tr>
                         <tr class="p-overview__item">

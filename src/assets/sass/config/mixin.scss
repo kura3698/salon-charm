@@ -97,3 +97,14 @@ $breakpoints: (
   content: "#{$beforeText}" counter(num_ + $numName) "#{$afterText}";
   counter-increment: num_ + $numName;
 }
+
+@mixin flex-center($direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: center;
+}
+@mixin grid-center() {
+  display: grid;
+  place-items: center;
+}

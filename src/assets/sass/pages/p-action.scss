@@ -52,6 +52,7 @@
 
 .p-action__text--3 {
   padding-block-start: rm(17);
+  display: block;
 }
 
 .p-action__list {
@@ -89,5 +90,6 @@
   line-height: 1.8;
 }
 .p-action__text--5 {
-  padding-block-start: rm(12);
+  margin-block-start: rm(12);
+  display: block;
 }

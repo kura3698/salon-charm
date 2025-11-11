@@ -18,6 +18,11 @@
             <path d="M6.98542 0.00213774C8.69914 0.00213774 10.4129 -0.00170342 12.1266 0.00388373C13.258 0.00772489 13.9919 0.737546 13.9943 1.88536C14.0019 5.29352 14.0019 8.70203 13.9929 12.1102C13.9898 13.2842 13.2605 13.9959 12.0838 13.9969C8.67272 14.0004 5.26162 14.0004 1.85018 13.9962C0.713838 13.9948 0.00575551 13.2957 0.00401746 12.1643C-0.0015443 8.70727 -0.0015443 5.24987 0.00366985 1.79247C0.0054079 0.727769 0.728437 0.00842329 1.79525 0.00388373C3.52531 -0.00344941 5.25536 0.00178855 6.98542 0.00213774ZM3.5479 6.01566C3.39426 6.00309 3.32787 6.07956 3.25904 6.14835C3.00424 6.40257 2.76161 6.67075 2.49291 6.9096C2.26626 7.11074 2.27808 7.25146 2.49291 7.46273C3.46135 8.41499 4.42319 9.37458 5.36625 10.352C5.62105 10.616 5.76635 10.6153 6.02428 10.3527C7.61807 8.72961 9.2289 7.12366 10.8352 5.51316C11.7539 4.59198 11.7435 4.6042 10.8307 3.66207C10.5554 3.37782 10.4063 3.39738 10.1389 3.67115C8.77805 5.0641 7.389 6.42911 6.02671 7.821C5.76705 8.08639 5.61514 8.08535 5.36625 7.81612C4.86674 7.27556 4.3335 6.76608 3.81209 6.24613C3.72136 6.15568 3.61916 6.07746 3.54756 6.01566H3.5479Z" fill="#E5647E" />
         </symbol>
     </svg>
+    <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" aria-hidden="true">
+        <symbol id="cta-icon" viewBox="0 0 9 11" fill="none">
+            <path d="M8.38415 4.41444C9.01346 4.80572 9.01346 5.72162 8.38415 6.1129L1.52802 10.3758C0.861893 10.79 0 10.3109 0 9.52655V1.00079C0 0.216401 0.861892 -0.262614 1.52802 0.151559L8.38415 4.41444Z" fill="white" />
+        </symbol>
+    </svg>
     <main class="l-salon-charm">
         <section class="p-fv">
             <h1 class="p-fv__head ">予約につながる文章が10分で完成するサロン専用ライティングツール「サロンチャーム」</h1>
@@ -38,7 +43,38 @@
                 </div>
             </div>
             <div class="l-inner p-problem__inner--under">
-                <p class="p-problem__attention u-font--attention u-font--attention--left">※監修内容は文章作成に関する部分であり、サロン運営や経営全般を保証するものではありません。<br>※ここでご紹介しているのは、実際にご利用いただいた方の一例です。<br>※成果には個人差があり、必ず同じ結果を保証するものではありません。<br>※文章作成時間には個人差があります。慣れによって所要時間が短縮されるケースもあります。</p>
+                <small class="p-problem__attention u-font--attention u-font--attention--left">※監修内容は文章作成に関する部分であり、サロン運営や経営全般を保証するものではありません。<br>※ここでご紹介しているのは、実際にご利用いただいた方の一例です。<br>※成果には個人差があり、必ず同じ結果を保証するものではありません。<br>※文章作成時間には個人差があります。慣れによって所要時間が短縮されるケースもあります。</small>
+                <div class="c-cta">
+                    <div class="c-cta__container" itemscope itemtype="https://schema.org/Product">
+                        <p class="c-cta__head">リリース記念</p>
+
+                        <meta itemprop="name" content="サロンチャーム" />
+                        <meta itemprop="description" content="芸能人も通う美容サロンの広告ライターをしている「かなう」が監修。個人サロンを運営するにおいて、SNS集客（特にInstagram）はかかせないもの。お客様の心を動かす文章の作り方さえ知っていれば、フォロワー数が少なくても、予約はじゃんじゃん入ります。" />
+
+                        <div class="c-cta__price-list">
+                            <div class="c-cta__normal-wrap">
+                                <div class="c-cta__normal">
+                                    <p class="c-cta__normal-text">通常価格</p>
+                                    <p class="c-cta__normal-amount"><del>49,800<span class="c-cta__normal-unit">円</span></del></p>
+                                </div>
+                                <div class="c-cta__normal-now">今だけ！</div>
+                            </div>
+                            <div class="c-cta__limited" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                <p class="c-cta__limited-text">期間限定</p>
+                                <p class="c-cta__limited-amount"><data value="19800" itemprop="price">19,800</data><span class="c-cta__limited-unit">円</span></p>
+                                <meta itemprop="priceCurrency" content="JPY" />
+                                <meta itemprop="availability" content="https://schema.org/InStock" />
+                            </div>
+                        </div>
+                        <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
+                            <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
+                                <use href="#cta-icon"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <small class="c-cta__attention">※価格や提供条件は予告なく変更になる場合があります。
+                    </small>
+                </div>
                 <div class="p-problem__container-1">
                     <div class="p-problem__image">
                         <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/img_problem-2.webp' alt='腕を組んで悩んでいる女性のイラスト' width='98' height='135' loading='lazy'>
@@ -246,9 +282,9 @@
                                 <p class="c-benefit-card__description">
                                     今までは、投稿1つ考えるだけで1時間。<br>「この表現でいいのかな？」「もっといい言い方があるのでは？」と手が止まっていたかもしれません。でもサロンチャームなら、型に沿ってスマホでポチポチするだけ。<span class="u-font-color--accent-pink">10分<span class="u-font-small u-font-color--accent-pink">※</span>ほどで"予約につながる文章"が完成します。余った時間は施術に集中することも、ゆっくりお茶を飲むことだってできます。</span>
                                 </p>
-                                <span class="u-font--attention u-font--attention--left c-benefit-card__attention">
+                                <small class="u-font--attention u-font--attention--left c-benefit-card__attention">
                                     ※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。
-                                </span>
+                                </small>
                             </div>
                             <figure class="c-benefit-card__image">
                                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img_benefit-1.webp" loading="lazy" alt="12時を指し示そうな時計の画像" width="361" height="180">
@@ -341,6 +377,37 @@
                         </div>
                     </li>
                 </ol>
+                <div class="c-cta">
+                    <div class="c-cta__container" itemscope itemtype="https://schema.org/Product">
+                        <p class="c-cta__head">リリース記念</p>
+
+                        <meta itemprop="name" content="サロンチャーム" />
+                        <meta itemprop="description" content="芸能人も通う美容サロンの広告ライターをしている「かなう」が監修。個人サロンを運営するにおいて、SNS集客（特にInstagram）はかかせないもの。お客様の心を動かす文章の作り方さえ知っていれば、フォロワー数が少なくても、予約はじゃんじゃん入ります。" />
+
+                        <div class="c-cta__price-list">
+                            <div class="c-cta__normal-wrap">
+                                <div class="c-cta__normal">
+                                    <p class="c-cta__normal-text">通常価格</p>
+                                    <p class="c-cta__normal-amount"><del>49,800<span class="c-cta__normal-unit">円</span></del></p>
+                                </div>
+                                <div class="c-cta__normal-now">今だけ！</div>
+                            </div>
+                            <div class="c-cta__limited" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                <p class="c-cta__limited-text">期間限定</p>
+                                <p class="c-cta__limited-amount"><data value="19800" itemprop="price">19,800</data><span class="c-cta__limited-unit">円</span></p>
+                                <meta itemprop="priceCurrency" content="JPY" />
+                                <meta itemprop="availability" content="https://schema.org/InStock" />
+                            </div>
+                        </div>
+                        <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
+                            <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
+                                <use href="#cta-icon"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <small class="c-cta__attention">※価格や提供条件は予告なく変更になる場合があります。
+                    </small>
+                </div>
             </div>
         </section>
 
@@ -450,7 +517,43 @@
 
 
 
-        <section class="p-plan"></section>
+        <section class="p-plan">
+
+
+
+
+            <div class="c-cta">
+                <div class="c-cta__container" itemscope itemtype="https://schema.org/Product">
+                    <p class="c-cta__head">リリース記念</p>
+
+                    <meta itemprop="name" content="サロンチャーム" />
+                    <meta itemprop="description" content="芸能人も通う美容サロンの広告ライターをしている「かなう」が監修。個人サロンを運営するにおいて、SNS集客（特にInstagram）はかかせないもの。お客様の心を動かす文章の作り方さえ知っていれば、フォロワー数が少なくても、予約はじゃんじゃん入ります。" />
+
+                    <div class="c-cta__price-list">
+                        <div class="c-cta__normal-wrap">
+                            <div class="c-cta__normal">
+                                <p class="c-cta__normal-text">通常価格</p>
+                                <p class="c-cta__normal-amount"><del>49,800<span class="c-cta__normal-unit">円</span></del></p>
+                            </div>
+                            <div class="c-cta__normal-now">今だけ！</div>
+                        </div>
+                        <div class="c-cta__limited" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <p class="c-cta__limited-text">期間限定</p>
+                            <p class="c-cta__limited-amount"><data value="19800" itemprop="price">19,800</data><span class="c-cta__limited-unit">円</span></p>
+                            <meta itemprop="priceCurrency" content="JPY" />
+                            <meta itemprop="availability" content="https://schema.org/InStock" />
+                        </div>
+                    </div>
+                    <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
+                        <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
+                            <use href="#cta-icon"></use>
+                        </svg>
+                    </a>
+                </div>
+                <small class="c-cta__attention">※価格や提供条件は予告なく変更になる場合があります。
+                </small>
+            </div>
+        </section>
 
 
         <!-------------------------------
@@ -459,13 +562,13 @@
         <section class="p-voice">
             <h2 class="p-voice__head"><span>サロンチャームを使った</span><br>オーナーさんの声</h2>
             <div class="l-inner p-voice__inner">
-                <p class="p-voice__attention u-font--attention u-font--attention--left">※下記は実際にご利用いただいた方の声の一例です。
-                </p>
-                <p class="p-voice__attention u-font--attention u-font--attention--left">
+                <small class="p-voice__attention u-font--attention u-font--attention--left">※下記は実際にご利用いただいた方の声の一例です。
+                </small>
+                <small class="p-voice__attention u-font--attention u-font--attention--left">
                     ※効果には個人差があり、同様の成果を保証するものではありません。
-                </p>
-                <p class="p-voice__attention u-font--attention u-font--attention--left">
-                    ※写真はイメージです。</p>
+                </small>
+                <small class="p-voice__attention u-font--attention u-font--attention--left">
+                    ※写真はイメージです。</small>
                 <ul class="p-voice__list">
                     <li class="p-voice__item">
                         <figure class="p-voice__image">
@@ -527,7 +630,38 @@
                     <p class="p-credibility__text ">　その経験を通じて気づいたのは、集客や売上に困っている個人サロンオーナーが本当に多いという現実でした。<span class="u-font-color--accent-pink">「文章でこんなに変わるなら、もっと多くのオーナーさんの力になれるはず」</span>そう考え制作したのが、<span class="u-font-color--accent-pink">予約につながる文章作成ツール『サロンチャーム』</span>です。</p>
                     <p class="p-credibility__text ">　サロンチャームを使えば、これまで<span class="u-font-color--accent-pink">1時間かかっていた投稿作成が、たった10分※に短縮できます。</span>外注ライターにお願いすれば毎月数万円かかる文章も、サロンチャームなら買い切りでずっと使える。</p>
                     <p class="p-credibility__text ">　だからこそ、ぜひこの機会に手に入れて、実際に使ってみてください。<br>「もう文章で悩まなくていい」という安心感を、あなたのサロンにも。</p>
-                    <p class="p-credibility__text  u-font--attention">※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。</p>
+                    <small class="p-credibility__text  u-font--attention">※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。</small>
+                </div>
+                <div class="c-cta">
+                    <div class="c-cta__container" itemscope itemtype="https://schema.org/Product">
+                        <p class="c-cta__head">リリース記念</p>
+
+                        <meta itemprop="name" content="サロンチャーム" />
+                        <meta itemprop="description" content="芸能人も通う美容サロンの広告ライターをしている「かなう」が監修。個人サロンを運営するにおいて、SNS集客（特にInstagram）はかかせないもの。お客様の心を動かす文章の作り方さえ知っていれば、フォロワー数が少なくても、予約はじゃんじゃん入ります。" />
+
+                        <div class="c-cta__price-list">
+                            <div class="c-cta__normal-wrap">
+                                <div class="c-cta__normal">
+                                    <p class="c-cta__normal-text">通常価格</p>
+                                    <p class="c-cta__normal-amount"><del>49,800<span class="c-cta__normal-unit">円</span></del></p>
+                                </div>
+                                <div class="c-cta__normal-now">今だけ！</div>
+                            </div>
+                            <div class="c-cta__limited" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                <p class="c-cta__limited-text">期間限定</p>
+                                <p class="c-cta__limited-amount"><data value="19800" itemprop="price">19,800</data><span class="c-cta__limited-unit">円</span></p>
+                                <meta itemprop="priceCurrency" content="JPY" />
+                                <meta itemprop="availability" content="https://schema.org/InStock" />
+                            </div>
+                        </div>
+                        <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
+                            <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
+                                <use href="#cta-icon"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <small class="c-cta__attention">※価格や提供条件は予告なく変更になる場合があります。
+                    </small>
                 </div>
             </div>
         </section>
@@ -607,7 +741,7 @@
                         </summary>
                         <div class="p-faq__answer js-content">
                             <p class="p-faq__answer-text">
-                                多くのオーナーさんが「パソコンが苦手」「文章が苦手」と口にされます。<br>でも、サロンチャームはスマホだけ10分※で完結なので、投稿が続きやすいと好評です。<br><span class="u-font-small">※文章作成時間には個人差があります。慣れによって所要時間が短縮されるケースもあります。</span>
+                                多くのオーナーさんが「パソコンが苦手」「文章が苦手」と口にされます。<br>でも、サロンチャームはスマホだけ10分※で完結なので、投稿が続きやすいと好評です。<br><small class="u-font-small">※文章作成時間には個人差があります。慣れによって所要時間が短縮されるケースもあります。</small>
                             </p>
                         </div>
                     </details>
@@ -635,14 +769,14 @@
         <section class="p-action">
             <div class="l-inner p-action__inner">
                 <h2 class="p-action__head">
-                    <div class="p-action__head-text">ほんの10分<span>※</span>で、</div>
-                    <div class="p-action__head-text">あなたのサロンも</div>
-                    <div class="p-action__head-text">"予約につながる投稿"へ！</div>
+                    <span class="p-action__head-text">ほんの10分<span>※</span>で、</span>
+                    <span class="p-action__head-text">あなたのサロンも</span>
+                    <span class="p-action__head-text">"予約につながる投稿"へ！</span>
                 </h2>
                 <div class="p-action__contents">
                     <div class="p-action__text p-action__text--1">毎日一生懸命インスタに投稿して、<br>こまめに発信しているのに——<br>「いいね」も少なく、予約につながらない。<br><span class="u-font-color--accent-pink">そんな悩みも、これでおさらばです。</span></div>
                     <div class="p-action__text p-action__text--2">サロンチャームがあれば、<br>あなたの言葉が<span class="u-font-color--accent-pink">"お客様の心に届く文章"</span>に変わります。</div>
-                    <div class="p-action__text p-action__text--3 u-font--attention">※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。</div>
+                    <small class="p-action__text p-action__text--3 u-font--attention">※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。</small>
                     <ul class="p-action__list">
                         <li class="p-action__item">
                             <svg class="p-action__item-check" width="14" height="14" viewBox="0 0 14 14" role="presentation">
@@ -664,10 +798,40 @@
                         </li>
                     </ul>
                     <div class="p-action__text p-action__text--4 ">これまでの努力を無駄にしないために。<br>そして、<br><span class="u-font-color--accent-pink">あなたの想いをきちんとお客様に届けるために。</span><br>次は、あなたのサロンで体感してください。</div>
-                    <div class="p-action__text p-action__text--5 u-font--attention">※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。</div>
+                    <small class="p-action__text p-action__text--5 u-font--attention" aria-hidden="true">※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。</small>
                 </div>
-            </div>
+
+                <div class="c-cta">
+                    <div class="c-cta__container" itemscope itemtype="https://schema.org/Product">
+                        <p class="c-cta__head">リリース記念</p>
+
+                        <meta itemprop="name" content="サロンチャーム" />
+                        <meta itemprop="description" content="芸能人も通う美容サロンの広告ライターをしている「かなう」が監修。個人サロンを運営するにおいて、SNS集客（特にInstagram）はかかせないもの。お客様の心を動かす文章の作り方さえ知っていれば、フォロワー数が少なくても、予約はじゃんじゃん入ります。" />
+
+                        <div class="c-cta__price-list">
+                            <div class="c-cta__normal-wrap">
+                                <div class="c-cta__normal">
+                                    <p class="c-cta__normal-text">通常価格</p>
+                                    <p class="c-cta__normal-amount"><del>49,800<span class="c-cta__normal-unit">円</span></del></p>
+                                </div>
+                                <div class="c-cta__normal-now">今だけ！</div>
+                            </div>
+                            <div class="c-cta__limited" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                <p class="c-cta__limited-text">期間限定</p>
+                                <p class="c-cta__limited-amount"><data value="19800" itemprop="price">19,800</data><span class="c-cta__limited-unit">円</span></p>
+                                <meta itemprop="priceCurrency" content="JPY" />
+                                <meta itemprop="availability" content="https://schema.org/InStock" />
+                            </div>
+                        </div>
+                        <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
+                            <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
+                                <use href="#cta-icon"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <small class="c-cta__attention">※価格や提供条件は予告なく変更になる場合があります。
+                    </small>
+                </div>
         </section>
     </main>
-
     <?php get_footer(); ?>

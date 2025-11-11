@@ -24,7 +24,6 @@
 }
 
 .p-faq__item {
-  padding-inline: rm(16);
   border-radius: rm(14);
   background: #fff;
   color: $accent-pink;
@@ -35,6 +34,8 @@
 }
 
 .p-faq__question {
+  padding-inline: rm(16);
+
   position: relative;
   padding-block: rm(9);
   &::before,
@@ -47,12 +48,12 @@
   }
 
   &::before {
-    right: 0;
+    right: rm(16);
     width: rm(10);
     height: rm(1);
   }
   &::after {
-    right: rm(4);
+    right: rm(20);
     width: rm(1);
     height: rm(10);
     transition: rotate 0.3s ease-in-out;
@@ -73,6 +74,7 @@
 }
 
 .p-faq__answer {
+  padding-inline: rm(16);
   height: 0;
   opacity: 0;
   overflow: hidden;

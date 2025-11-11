@@ -519,9 +519,11 @@
 
         <section class="p-plan">
             <div class="p-plan__head">
-                <svg class="p-plan__head-bg" xmlns="http://www.w3.org/2000/svg" width="393" height="107" viewBox="0 0 393 107" fill="none">
-                    <path d="M0 0H393V80.996L198 106.5L0 80.996V0Z" fill="#E5647E" />
-                </svg>
+                <div class="p-plan__head-bg">
+                    <svg class="" xmlns="http://www.w3.org/2000/svg" width="393" height="107" viewBox="0 0 393 107" fill="none">
+                        <path d="M0 0H393V80.996L198 106.5L0 80.996V0Z" fill="#E5647E" />
+                    </svg>
+                </div>
                 <h2 class="p-plan__head-text">外注ライターと<br>サロンチャームの違い</h2>
             </div>
             <div class="l-inner p-plan__inner">
@@ -534,7 +536,7 @@
                         <tr>
                             <th class="c-plan__head--empty"></th>
                             <th class="c-plan__head--charm">サロンチャーム</th>
-                            <th class="c-plan__head--writer" >外注ライター</th>
+                            <th class="c-plan__head--writer">外注ライター</th>
                         </tr>
                     </thead>
                     <tbody class="c-plan__body">

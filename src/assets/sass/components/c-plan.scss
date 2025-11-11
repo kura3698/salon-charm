@@ -1,1 +1,80 @@
-@use '../config/' as *;
+@use "../config/" as *;
+
+.c-plan {
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  border-collapse: collapse;
+}
+
+.c-plan__head {
+  text-align: center;
+  color: $text-white;
+  font-size: rm(16);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.c-plan__head--empty {
+  border-right: none;
+}
+
+.c-plan__head--charm {
+  border-radius: 11px 11px 0 0;
+  background: $accent-pink-light;
+}
+
+.c-plan__head--writer {
+  background: #666;
+  border-left: none;
+}
+
+.c-plan__feature-col {
+  color: $text-main-1;
+  font-size: rm(12);
+  font-style: normal;
+  font-weight: 700;
+  @include flex-center();
+  padding-inline: rm(12);
+  border: 1px solid #d9d9d9;
+  border-right: none;
+  background: #f7f7f5;
+}
+
+.c-plan__charm-col {
+  min-height: rm(81);
+  color: $text-accent-pink;
+  @include flex-center();
+  font-size: rm(12);
+  font-weight: 700;
+  line-height: 1.33;
+  padding-inline: rm(20);
+  padding-block: rm(12);
+  border-inline: rm(4) solid #ffa4bd;
+  border-bottom: rm(1) solid #d9d9d9;
+  background: #ffe6ed;
+
+  &--first-row {
+    border-top: rm(4) solid #ffa4bd;
+  }
+
+  &--last-row {
+    border-bottom: rm(4) solid #ffa4bd;
+    border-radius: 0 0 rm(5) rm(5);
+  }
+}
+
+.c-plan__writer-col {
+  color: $text-main-1;
+  font-size: rm(12);
+  font-weight: 350;
+  line-height: 1.33;
+  background: #fff;
+  text-align: center;
+
+  ul {
+    text-align: left;
+  }
+}
+
+.c-plan__price-note {
+}

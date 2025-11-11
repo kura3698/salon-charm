@@ -529,7 +529,72 @@
                 <p class="p-plan__text p-plan__text--2">つまり1ヶ月で24,000円以上。<br>効果を実感できるのは3ヶ月以降なので、<br>合計72,000円以上の出費になります。<br>それを考えると、<br><span class="u-font-color--accent-pink">正規価格49,800円でも<br>十分リーズナブルだと思いませんか？</span></p>
                 <p class="p-plan__text p-plan__text--3">今は【リリース記念価格】で、<br><strong class="u-font-color--accent-pink">19,800</strong><span class="u-font-color--accent-pink">円</span>でご提供しています。<br>一度購入すれば、ずっと使い続けられますよ。</p>
 
-                <div class="c-plan p-plan__contents"></div>
+                <table class="c-plan p-plan__contents">
+                    <thead class="c-plan__head">
+                        <tr>
+                            <th class="c-plan__head--empty"></th>
+                            <th class="c-plan__head--charm">サロンチャーム</th>
+                            <th class="c-plan__head--writer" >外注ライター</th>
+                        </tr>
+                    </thead>
+                    <tbody class="c-plan__body">
+                        <tr>
+                            <th class="c-plan__feature-col">費用</th>
+                            <td class="c-plan__charm-col c-plan__charm-col--first-row">
+                                <span class="c-plan__price-note">リリース記念価格</span>
+                                <div class="c-plan__price">19,800<span style="font-size:16px;">円</span></div>
+                                <span class="c-plan__price-note">(買い切り)</span>
+                                <small class="original-price">※通常価格49,800円</small>
+                            </td>
+                            <td class="c-plan__writer-col">
+                                <ul>
+                                    <li>・1本2,000円 × 週3回 = 月24,000円</li>
+                                    <li>・3ヶ月継続 = 72,000円以上</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="c-plan__feature-col">継続性</th>
+                            <td class="c-plan__charm-col">
+                                <p>一度購入すれば<br>ずっと使える</p>
+                            </td>
+                            <td class="c-plan__writer-col">
+                                <p>投稿のたびに<br>追加費用</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="c-plan__feature-col">信頼性</th>
+                            <td class="c-plan__charm-col">
+                                <p>自分のペースで、<br>いつでも即利用可能</p>
+                            </td>
+                            <td class="c-plan__writer-col">
+                                <ul>
+                                    <li>・締切を守らない</li>
+                                    <li>・納品が遅い</li>
+                                    <li>・最悪は連絡が<br>途絶えるリスクあり</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="c-plan__feature-col">当たり外れ</th>
+                            <td class="c-plan__charm-col">
+                                <p>実績ある<br>“30の型”を内蔵</p>
+                            </td>
+                            <td class="c-plan__writer-col">
+                                <p>ライターの質や<br>経験に左右される</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="c-plan__feature-col">操作</th>
+                            <td class="c-plan__charm-col c-plan__charm-col--last-row">
+                                <p>スマホで即完成</p>
+                            </td>
+                            <td class="c-plan__writer-col">
+                                <p>納品を<br>待つ必要あり</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
 
                 <p class="p-plan__text p-plan__text--4">外注ライターに依頼すると、<br>締切を守らない・納品が遅い、<br>最悪飛んでしまうケースも珍しくありません。<br><span class="u-font-color--accent-pink">サロンの集客を他人任せにするのは、<br>それだけ大きなリスクを背負うことになるのです。</span></p>
                 <p class="p-plan__text p-plan__text--5 u-font-color--accent-pink">サロンチャームなら、<br>あなたのスマホからいつでも即利用可能。</p>

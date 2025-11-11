@@ -44,36 +44,36 @@
             </div>
             <div class="l-inner p-problem__inner--under">
                 <small class="p-problem__attention u-font--attention u-font--attention--left">※監修内容は文章作成に関する部分であり、サロン運営や経営全般を保証するものではありません。<br>※ここでご紹介しているのは、実際にご利用いただいた方の一例です。<br>※成果には個人差があり、必ず同じ結果を保証するものではありません。<br>※文章作成時間には個人差があります。慣れによって所要時間が短縮されるケースもあります。</small>
-                <div class="c-cta">
-                    <div class="c-cta__container" itemscope itemtype="https://schema.org/Product">
-                        <p class="c-cta__head">リリース記念</p>
-
-                        <meta itemprop="name" content="サロンチャーム" />
-                        <meta itemprop="description" content="芸能人も通う美容サロンの広告ライターをしている「かなう」が監修。個人サロンを運営するにおいて、SNS集客（特にInstagram）はかかせないもの。お客様の心を動かす文章の作り方さえ知っていれば、フォロワー数が少なくても、予約はじゃんじゃん入ります。" />
-
-                        <div class="c-cta__price-list">
-                            <div class="c-cta__normal-wrap">
-                                <div class="c-cta__normal">
-                                    <p class="c-cta__normal-text">通常価格</p>
-                                    <p class="c-cta__normal-amount"><del>49,800<span class="c-cta__normal-unit">円</span></del></p>
+                <div class="p-problem__cta">
+                    <div class="c-cta">
+                        <div class="c-cta__container" itemscope itemtype="https://schema.org/Product">
+                            <p class="c-cta__head">リリース記念</p>
+                            <meta itemprop="name" content="サロンチャーム" />
+                            <meta itemprop="description" content="芸能人も通う美容サロンの広告ライターをしている「かなう」が監修。個人サロンを運営するにおいて、SNS集客（特にInstagram）はかかせないもの。お客様の心を動かす文章の作り方さえ知っていれば、フォロワー数が少なくても、予約はじゃんじゃん入ります。" />
+                            <div class="c-cta__price-list">
+                                <div class="c-cta__normal-wrap">
+                                    <div class="c-cta__normal">
+                                        <p class="c-cta__normal-text">通常価格</p>
+                                        <p class="c-cta__normal-amount"><del>49,800<span class="c-cta__normal-unit">円</span></del></p>
+                                    </div>
+                                    <div class="c-cta__normal-now">今だけ！</div>
                                 </div>
-                                <div class="c-cta__normal-now">今だけ！</div>
+                                <div class="c-cta__limited" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                    <p class="c-cta__limited-text">期間限定</p>
+                                    <p class="c-cta__limited-amount"><data value="19800" itemprop="price">19,800</data><span class="c-cta__limited-unit">円</span></p>
+                                    <meta itemprop="priceCurrency" content="JPY" />
+                                    <meta itemprop="availability" content="https://schema.org/InStock" />
+                                </div>
                             </div>
-                            <div class="c-cta__limited" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                                <p class="c-cta__limited-text">期間限定</p>
-                                <p class="c-cta__limited-amount"><data value="19800" itemprop="price">19,800</data><span class="c-cta__limited-unit">円</span></p>
-                                <meta itemprop="priceCurrency" content="JPY" />
-                                <meta itemprop="availability" content="https://schema.org/InStock" />
-                            </div>
+                            <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
+                                <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
+                                    <use href="#cta-icon"></use>
+                                </svg>
+                            </a>
                         </div>
-                        <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
-                            <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
-                                <use href="#cta-icon"></use>
-                            </svg>
-                        </a>
+                        <small class="c-cta__attention">※価格や提供条件は予告なく変更になる場合があります。
+                        </small>
                     </div>
-                    <small class="c-cta__attention">※価格や提供条件は予告なく変更になる場合があります。
-                    </small>
                 </div>
                 <div class="p-problem__container-1">
                     <div class="p-problem__image">
@@ -520,7 +520,7 @@
         <section class="p-plan">
             <div class="p-plan__head">
                 <div class="p-plan__head-bg">
-                    <svg class="" xmlns="http://www.w3.org/2000/svg" width="393" height="107" viewBox="0 0 393 107" fill="none">
+                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="393" height="107" viewBox="0 0 393 107" fill="none">
                         <path d="M0 0H393V80.996L198 106.5L0 80.996V0Z" fill="#E5647E" />
                     </svg>
                 </div>
@@ -531,72 +531,76 @@
                 <p class="p-plan__text p-plan__text--2">つまり1ヶ月で24,000円以上。<br>効果を実感できるのは3ヶ月以降なので、<br>合計72,000円以上の出費になります。<br>それを考えると、<br><span class="u-font-color--accent-pink">正規価格49,800円でも<br>十分リーズナブルだと思いませんか？</span></p>
                 <p class="p-plan__text p-plan__text--3">今は【リリース記念価格】で、<br><strong class="u-font-color--accent-pink">19,800</strong><span class="u-font-color--accent-pink">円</span>でご提供しています。<br>一度購入すれば、ずっと使い続けられますよ。</p>
 
-                <table class="c-plan p-plan__contents">
-                    <thead class="c-plan__head">
-                        <tr>
-                            <th class="c-plan__head--empty"></th>
-                            <th class="c-plan__head--charm">サロンチャーム</th>
-                            <th class="c-plan__head--writer">外注ライター</th>
-                        </tr>
-                    </thead>
-                    <tbody class="c-plan__body">
-                        <tr>
-                            <th class="c-plan__feature-col">費用</th>
-                            <td class="c-plan__charm-col c-plan__charm-col--first-row">
-                                <span class="c-plan__price-note">リリース記念価格</span>
-                                <div class="c-plan__price">19,800<span style="font-size:16px;">円</span></div>
-                                <span class="c-plan__price-note">(買い切り)</span>
-                                <small class="original-price">※通常価格49,800円</small>
-                            </td>
-                            <td class="c-plan__writer-col">
-                                <ul>
-                                    <li>・1本2,000円 × 週3回 = 月24,000円</li>
-                                    <li>・3ヶ月継続 = 72,000円以上</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="c-plan__feature-col">継続性</th>
-                            <td class="c-plan__charm-col">
-                                <p>一度購入すれば<br>ずっと使える</p>
-                            </td>
-                            <td class="c-plan__writer-col">
-                                <p>投稿のたびに<br>追加費用</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="c-plan__feature-col">信頼性</th>
-                            <td class="c-plan__charm-col">
-                                <p>自分のペースで、<br>いつでも即利用可能</p>
-                            </td>
-                            <td class="c-plan__writer-col">
-                                <ul>
-                                    <li>・締切を守らない</li>
-                                    <li>・納品が遅い</li>
-                                    <li>・最悪は連絡が<br>途絶えるリスクあり</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="c-plan__feature-col">当たり外れ</th>
-                            <td class="c-plan__charm-col">
-                                <p>実績ある<br>“30の型”を内蔵</p>
-                            </td>
-                            <td class="c-plan__writer-col">
-                                <p>ライターの質や<br>経験に左右される</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="c-plan__feature-col">操作</th>
-                            <td class="c-plan__charm-col c-plan__charm-col--last-row">
-                                <p>スマホで即完成</p>
-                            </td>
-                            <td class="c-plan__writer-col">
-                                <p>納品を<br>待つ必要あり</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="p-plan__contents">
+                    <table class="c-plan">
+                        <thead class="c-plan__head">
+                            <tr>
+                                <th scope="col" class="c-plan__head--empty"></th>
+                                <th scope="col" class="c-plan__head--charm">サロンチャーム
+                                </th>
+                                <th scope="col" class="c-plan__head--writer">外注ライター
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="c-plan__body">
+                            <tr>
+                                <th scope="row" class="c-plan__feature-col">費用</th>
+                                <td class="c-plan__charm-col c-plan__charm-col--first-row">
+                                    <p class="c-plan__price-note">リリース記念価格</p>
+                                    <div class="c-plan__price">19,800<span>円</span></div>
+                                    <p class="c-plan__price-note">(買い切り)</p>
+                                    <small class="u-font--attention">※通常価格49,800円</small>
+                                </td>
+                                <td class="c-plan__writer-col">
+                                    <ul>
+                                        <li>1本2,000円 × 週3回<br> = 月24,000円</li>
+                                        <li>3ヶ月継続<br> = 72,000円以上</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="c-plan__feature-col">継続性</th>
+                                <td class="c-plan__charm-col">
+                                    <p>一度購入すれば<br>ずっと使える</p>
+                                </td>
+                                <td class="c-plan__writer-col">
+                                    <p>投稿のたびに<br>追加費用</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="c-plan__feature-col">信頼性</th>
+                                <td class="c-plan__charm-col">
+                                    <p>自分のペースで、<br>いつでも即利用可能</p>
+                                </td>
+                                <td class="c-plan__writer-col">
+                                    <ul>
+                                        <li>締切を守らない</li>
+                                        <li>納品が遅い</li>
+                                        <li>最悪は連絡が<br>途絶えるリスクあり</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="c-plan__feature-col">当たり外れ</th>
+                                <td class="c-plan__charm-col">
+                                    <p>実績ある<br>“30の型”を内蔵</p>
+                                </td>
+                                <td class="c-plan__writer-col">
+                                    <p>ライターの質や<br>経験に左右される</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="c-plan__feature-col">操作</th>
+                                <td class="c-plan__charm-col c-plan__charm-col--last-row">
+                                    <p>スマホで即完成</p>
+                                </td>
+                                <td class="c-plan__writer-col">
+                                    <p>納品を<br>待つ必要あり</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
                 <p class="p-plan__text p-plan__text--4">外注ライターに依頼すると、<br>締切を守らない・納品が遅い、<br>最悪飛んでしまうケースも珍しくありません。<br><span class="u-font-color--accent-pink">サロンの集客を他人任せにするのは、<br>それだけ大きなリスクを背負うことになるのです。</span></p>
                 <p class="p-plan__text p-plan__text--5 u-font-color--accent-pink">サロンチャームなら、<br>あなたのスマホからいつでも即利用可能。</p>
@@ -708,36 +712,36 @@
                     <p class="p-credibility__text ">　だからこそ、ぜひこの機会に手に入れて、実際に使ってみてください。<br>「もう文章で悩まなくていい」という安心感を、あなたのサロンにも。</p>
                     <small class="p-credibility__text  u-font--attention">※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。</small>
                 </div>
-                <div class="c-cta">
-                    <div class="c-cta__container" itemscope itemtype="https://schema.org/Product">
-                        <p class="c-cta__head">リリース記念</p>
-
-                        <meta itemprop="name" content="サロンチャーム" />
-                        <meta itemprop="description" content="芸能人も通う美容サロンの広告ライターをしている「かなう」が監修。個人サロンを運営するにおいて、SNS集客（特にInstagram）はかかせないもの。お客様の心を動かす文章の作り方さえ知っていれば、フォロワー数が少なくても、予約はじゃんじゃん入ります。" />
-
-                        <div class="c-cta__price-list">
-                            <div class="c-cta__normal-wrap">
-                                <div class="c-cta__normal">
-                                    <p class="c-cta__normal-text">通常価格</p>
-                                    <p class="c-cta__normal-amount"><del>49,800<span class="c-cta__normal-unit">円</span></del></p>
+                <div class="p-credibility__cta">
+                    <div class="c-cta">
+                        <div class="c-cta__container" itemscope itemtype="https://schema.org/Product">
+                            <p class="c-cta__head">リリース記念</p>
+                            <meta itemprop="name" content="サロンチャーム" />
+                            <meta itemprop="description" content="芸能人も通う美容サロンの広告ライターをしている「かなう」が監修。個人サロンを運営するにおいて、SNS集客（特にInstagram）はかかせないもの。お客様の心を動かす文章の作り方さえ知っていれば、フォロワー数が少なくても、予約はじゃんじゃん入ります。" />
+                            <div class="c-cta__price-list">
+                                <div class="c-cta__normal-wrap">
+                                    <div class="c-cta__normal">
+                                        <p class="c-cta__normal-text">通常価格</p>
+                                        <p class="c-cta__normal-amount"><del>49,800<span class="c-cta__normal-unit">円</span></del></p>
+                                    </div>
+                                    <div class="c-cta__normal-now">今だけ！</div>
                                 </div>
-                                <div class="c-cta__normal-now">今だけ！</div>
+                                <div class="c-cta__limited" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                    <p class="c-cta__limited-text">期間限定</p>
+                                    <p class="c-cta__limited-amount"><data value="19800" itemprop="price">19,800</data><span class="c-cta__limited-unit">円</span></p>
+                                    <meta itemprop="priceCurrency" content="JPY" />
+                                    <meta itemprop="availability" content="https://schema.org/InStock" />
+                                </div>
                             </div>
-                            <div class="c-cta__limited" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                                <p class="c-cta__limited-text">期間限定</p>
-                                <p class="c-cta__limited-amount"><data value="19800" itemprop="price">19,800</data><span class="c-cta__limited-unit">円</span></p>
-                                <meta itemprop="priceCurrency" content="JPY" />
-                                <meta itemprop="availability" content="https://schema.org/InStock" />
-                            </div>
+                            <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
+                                <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
+                                    <use href="#cta-icon"></use>
+                                </svg>
+                            </a>
                         </div>
-                        <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
-                            <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
-                                <use href="#cta-icon"></use>
-                            </svg>
-                        </a>
+                        <small class="c-cta__attention">※価格や提供条件は予告なく変更になる場合があります。
+                        </small>
                     </div>
-                    <small class="c-cta__attention">※価格や提供条件は予告なく変更になる場合があります。
-                    </small>
                 </div>
             </div>
         </section>

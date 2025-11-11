@@ -11,9 +11,6 @@
   display: flex;
   gap: rm(8);
   flex-direction: column;
-  span {
-    font-size: rm(14);
-  }
 }
 .p-action__head-text {
   width: fit-content;
@@ -28,6 +25,9 @@
   padding-inline: rm(10);
   border-radius: rm(7);
   background: linear-gradient(126deg, #ed8ea4 38.44%, #e66881 109.98%);
+  span {
+    font-size: rm(14);
+  }
 }
 
 .p-action__contents {

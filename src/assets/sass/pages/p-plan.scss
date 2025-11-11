@@ -1,0 +1,71 @@
+@use "../config/" as *;
+
+.p-plan {
+  background: #ffedf2;
+}
+
+.p-plan__head {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.p-plan__head-bg {
+  position: absolute;
+  z-index: -1;
+}
+
+.p-plan__head-text {
+  padding-block: rm(18) rm(32.5);
+  color: $text-white;
+  text-align: center;
+  font-family: $ff-mincho;
+  font-size: rm(22);
+  font-weight: 800;
+  line-height: 1.27;
+  z-index: 1;
+}
+
+.p-plan__inner {
+  padding-block: rm(23) rm(37);
+  text-align: center;
+}
+
+.p-plan__text {
+  color: $text-main-1;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.p-plan__text--1 {
+}
+
+.p-plan__text--2 {
+  margin-block-start: rm(19);
+}
+
+.p-plan__text--3 {
+  font-size: rm(16);
+  font-weight: 700;
+  margin-block-start: rm(28);
+  line-height: 1.4;
+  strong {
+    font-size: rm(31);
+  }
+}
+
+.p-plan__contents {
+  margin-block-start: rm(34);
+}
+
+.p-plan__text--4 {
+  margin-block-start: rm(32);
+}
+
+.p-plan__text--5 {
+  margin-block-start: rm(28);
+}
+
+.p-plan__text--6 {
+  margin-block: rm(20) rm(35);
+}

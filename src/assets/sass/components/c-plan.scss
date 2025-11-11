@@ -1,0 +1,135 @@
+@use "../config/" as *;
+
+.c-plan {
+  background: #fff;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c-plan__head {
+  text-align: center;
+  color: $text-white;
+  font-size: rm(16);
+  line-height: 1;
+}
+
+.c-plan__head--empty {
+  border-right: none;
+  border: 1px solid #d9d9d9;
+}
+
+.c-plan__head--charm {
+  position: relative;
+  font-weight: 700;
+  z-index: 0;
+  &::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + rm(4));
+    height: calc(100% + rm(12));
+    top: rm(-10);
+    left: rm(-2);
+    background: $accent-pink-light;
+    border-radius: rm(11) rm(11) 0 0;
+    z-index: -1;
+  }
+}
+
+.c-plan__head--writer {
+  font-weight: 700;
+  background: #666;
+  border-left: none;
+  padding-block: rm(17) rm(20);
+}
+
+.c-plan__feature-col {
+  color: $text-main-1;
+  font-size: rm(12);
+  font-style: normal;
+  font-weight: 700;
+  border: 1px solid #d9d9d9;
+  border-right: none;
+  background: #f7f7f5;
+  width: rm(83);
+  height: rm(75);
+  vertical-align: middle;
+}
+
+.c-plan__charm-col {
+  vertical-align: middle;
+  min-height: rm(81);
+  color: $text-accent-pink;
+  font-size: rm(12);
+  line-height: 1.25;
+  padding-block: rm(12);
+  border-inline: rm(4) solid $accent-pink-light;
+  border-bottom: rm(1) solid #d9d9d9;
+  background: #ffe6ed;
+  white-space: nowrap;
+  padding-inline: rm(15);
+
+  &--first-row {
+    border-top: rm(4) solid $accent-pink-light;
+  }
+
+  &--last-row {
+    position: relative;
+    border-bottom: none;
+    z-index: 0;
+    &::before {
+      content: "";
+      position: absolute;
+      border-bottom: rm(4) solid $accent-pink-light;
+      border-inline: rm(4) solid $accent-pink-light;
+      border-radius: 0 0 rm(5) rm(5);
+      width: calc(100% + rm(8));
+      height: 100%;
+      background: #ffe6ed;
+      z-index: -1;
+      left: rm(-4);
+      bottom: rm(-11);
+    }
+  }
+
+  p {
+    font-weight: 700;
+  }
+}
+
+.c-plan__price-note {
+}
+
+.c-plan__price {
+  font-size: rm(21);
+  font-weight: 700;
+  span {
+    font-size: rm(12);
+    font-weight: 700;
+  }
+}
+
+.c-plan__writer-col {
+  vertical-align: middle;
+  color: $text-main-1;
+  font-size: rm(12);
+  font-weight: 350;
+  line-height: 1.25;
+  background: #fff;
+  text-align: center;
+  border: rm(1) solid #d9d9d9;
+  border-left: none;
+
+  ul {
+    text-align: left;
+  }
+  li {
+    position: relative;
+    padding-inline-start: rm(15);
+    &::before {
+      content: "・";
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+}

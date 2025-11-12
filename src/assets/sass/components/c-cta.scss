@@ -33,7 +33,7 @@
 
 .c-cta__price-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: rm(2);
 }
@@ -45,7 +45,7 @@
 .c-cta__normal {
   display: flex;
   flex-direction: column;
-  padding: rm(6) rm(16);
+  padding: rm(4) rm(13);
   border: rm(1) solid $accent-pink-light;
   color: #6b7280;
   text-align: center;
@@ -81,15 +81,13 @@
 }
 
 .c-cta__normal-now {
+  margin-inline-start: rm(-1);
   color: $text-white;
   font-size: rm(12);
   font-weight: 700;
   background: $accent-pink-light;
-  padding-inline: rm(4) rm(10);
+  padding-inline: rm(4) rm(6);
   clip-path: polygon(0% 0%, 70% 0, 100% 50%, 70% 100%, 0% 100%);
-  // 境界線を重ねるため、左側のボーダーだけを親要素のボーダーと被せる
-  border-block: rm(1) solid $accent-pink-light; // 上下ボーダー
-  border-right: rm(1) solid $accent-pink-light; // 右ボーダー
   height: auto;
   display: flex;
   align-items: center;
@@ -111,9 +109,10 @@
 }
 
 .c-cta__limited-amount {
-  font-size: rm(36);
+  font-size: rm(37);
   font-weight: 700;
   line-height: 0.88;
+  letter-spacing: 0.07em;
 }
 .c-cta__limited-unit {
   font-size: rm(20);
@@ -132,7 +131,7 @@
   font-size: rm(16);
   font-weight: 700;
   line-height: 1.37;
-  padding: rm(8) rm(36);
+  padding: rm(10) rm(36);
   font-family: $ff;
   width: 100%;
   &:focus-visible {

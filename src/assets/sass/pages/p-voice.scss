@@ -5,7 +5,7 @@
 }
 
 .p-voice__head {
-  padding-block: rm(7) rm(18);
+  padding-block: rm(16) rm(23);
   background: $accent-pink;
   color: $text-white;
   position: relative;
@@ -43,10 +43,11 @@
 }
 
 .p-voice__inner {
-  padding-block: rm(20) rm(45);
+  padding-block: rm(15) rm(29);
 }
 
 .p-voice__attention {
+  display: block;
 }
 
 .p-voice__list {
@@ -60,4 +61,5 @@
 }
 
 .p-voice__image {
+  width: rm(368);
 }

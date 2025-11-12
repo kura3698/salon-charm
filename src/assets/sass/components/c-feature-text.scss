@@ -15,7 +15,7 @@
     width: rm(30);
     height: rm(41);
     bottom: rm(-11);
-    left: rm(14);
+    left: rm(17);
   }
   &--reverse {
     &::after {
@@ -23,7 +23,7 @@
       background: url(../img/deco_tri--reverse.svg) center / contain no-repeat;
       position: absolute;
       left: unset;
-      right: rm(14);
+      right: rm(28);
     }
   }
 }

@@ -26,8 +26,8 @@
     content: "";
     position: absolute;
     width: calc(100% + rm(4));
-    height: calc(100% + rm(12));
-    top: rm(-10);
+    height: calc(100% + rm(8));
+    top: rm(-8);
     left: rm(-2);
     background: $accent-pink-light;
     border-radius: rm(11) rm(11) 0 0;
@@ -39,7 +39,7 @@
   font-weight: 700;
   background: #666;
   border-left: none;
-  padding-block: rm(17) rm(20);
+  padding-block: rm(17) rm(23);
 }
 
 .c-plan__feature-col {
@@ -50,7 +50,7 @@
   border: 1px solid #d9d9d9;
   border-right: none;
   background: #f7f7f5;
-  width: rm(83);
+  width: rm(87);
   height: rm(75);
   vertical-align: middle;
 }
@@ -61,7 +61,7 @@
   color: $text-accent-pink;
   font-size: rm(12);
   line-height: 1.25;
-  padding-block: rm(12);
+  padding-block: rm(18);
   border-inline: rm(4) solid $accent-pink-light;
   border-bottom: rm(1) solid #d9d9d9;
   background: #ffe6ed;
@@ -69,7 +69,6 @@
   padding-inline: rm(15);
 
   &--first-row {
-    border-top: rm(4) solid $accent-pink-light;
   }
 
   &--last-row {
@@ -118,17 +117,18 @@
   text-align: center;
   border: rm(1) solid #d9d9d9;
   border-left: none;
+  padding-block: rm(20);
 
   ul {
     text-align: left;
   }
   li {
     position: relative;
-    padding-inline-start: rm(15);
+    padding-inline-start: rm(9);
     &::before {
       content: "・";
       position: absolute;
-      left: 0;
+      left: rm(-2);
       top: 0;
     }
   }

@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="l-inner p-problem__inner--under">
-                <small class="p-problem__attention u-font--attention u-font--attention--left">※監修内容は文章作成に関する部分であり、サロン運営や経営全般を保証するものではありません。<br>※ここでご紹介しているのは、実際にご利用いただいた方の一例です。<br>※成果には個人差があり、必ず同じ結果を保証するものではありません。<br>※文章作成時間には個人差があります。慣れによって所要時間が短縮されるケースもあります。</small>
+                <small class="p-problem__attention">※監修内容は文章作成に関する部分であり、サロン運営や経営全般を保証するものではありません。<br>※ここでご紹介しているのは、実際にご利用いただいた方の一例です。<br>※成果には個人差があり、必ず同じ結果を保証するものではありません。<br>※文章作成時間には個人差があります。慣れによって所要時間が短縮されるケースもあります。</small>
                 <div class="p-problem__cta">
                     <div class="c-cta">
                         <div class="c-cta__container" itemscope itemtype="https://schema.org/Product">
@@ -65,7 +65,7 @@
                                     <meta itemprop="availability" content="https://schema.org/InStock" />
                                 </div>
                             </div>
-                            <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
+                            <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">&quot;自動で予約につながる文章術&quot;を手に入れる
                                 <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
                                     <use href="#cta-icon"></use>
                                 </svg>
@@ -275,7 +275,7 @@
                         <div class="c-benefit-card__head">
                             <div class="c-benefit-card__bg"></div>
                             <span class="c-benefit-card__number">01</span>
-                            <h3 class="c-benefit-card__text">もう"文章に1時間"<br>悩まなくていい</h3>
+                            <h3 class="c-benefit-card__text">もう&quot;文章に1時間&quot;<br>悩まなくていい</h3>
                         </div>
                         <div class="c-benefit-card__body">
                             <div class="c-benefit-card__description-wrap">
@@ -399,7 +399,7 @@
                                 <meta itemprop="availability" content="https://schema.org/InStock" />
                             </div>
                         </div>
-                        <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
+                        <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">&quot;自動で予約につながる文章術&quot;を手に入れる
                             <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
                                 <use href="#cta-icon"></use>
                             </svg>
@@ -552,7 +552,7 @@
                                     <small class="u-font--attention">※通常価格49,800円</small>
                                 </td>
                                 <td class="c-plan__writer-col">
-                                    <ul>
+                                    <ul class="u-space__list-item">
                                         <li>1本2,000円 × 週3回<br> = 月24,000円</li>
                                         <li>3ヶ月継続<br> = 72,000円以上</li>
                                     </ul>
@@ -625,7 +625,7 @@
                                 <meta itemprop="availability" content="https://schema.org/InStock" />
                             </div>
                         </div>
-                        <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
+                        <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">&quot;自動で予約につながる文章術&quot;を手に入れる
                             <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
                                 <use href="#cta-icon"></use>
                             </svg>
@@ -691,7 +691,7 @@
                 <div class="p-credibility__content">
                     <div class="p-credibility__name-group">
                         <div class="p-credibility__name-text">広告ライター</div>
-                        <div class="p-credibility__name-text">「かなう」</div>
+                        <div class="p-credibility__name-text p-credibility__name-text--short">「かなう」</div>
                     </div>
                     <div class="p-credibility__icon">
                         <svg aria-hidden="true" width="193" height="34" viewBox="0 0 193 34" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -705,12 +705,12 @@
                         </svg>
                     </div>
 
-                    <p class="p-credibility__text p1">　大手美容サロンにて広告ライターとして活動している、かなうです。これまでに<span class="u-font-color--accent-pink">累計3,700本以上の事やLPを執筆</span>し、美容機器や美容サロン集客に関する広告文章を数多く手がけてきました。</p>
+                    <p class="p-credibility__text">大手美容サロンにて広告ライターとして活動している、かなうです。これまでに<span class="u-font-color--accent-pink">累計3,700本以上の事やLPを執筆</span>し、美容機器や美容サロン集客に関する広告文章を数多く手がけてきました。</p>
                     <p class="p-credibility__text ">そんな中、大手サロンで培った広告ライター経験を活かして、知人が運営する個人サロンに文章のアドバイスをしたところ、<span class="u-font-color--accent-pink">売上アップなど大きな改善が見られたのです。</span></p>
-                    <p class="p-credibility__text ">　その経験を通じて気づいたのは、集客や売上に困っている個人サロンオーナーが本当に多いという現実でした。<span class="u-font-color--accent-pink">「文章でこんなに変わるなら、もっと多くのオーナーさんの力になれるはず」</span>そう考え制作したのが、<span class="u-font-color--accent-pink">予約につながる文章作成ツール『サロンチャーム』</span>です。</p>
-                    <p class="p-credibility__text ">　サロンチャームを使えば、これまで<span class="u-font-color--accent-pink">1時間かかっていた投稿作成が、たった10分※に短縮できます。</span>外注ライターにお願いすれば毎月数万円かかる文章も、サロンチャームなら買い切りでずっと使える。</p>
-                    <p class="p-credibility__text ">　だからこそ、ぜひこの機会に手に入れて、実際に使ってみてください。<br>「もう文章で悩まなくていい」という安心感を、あなたのサロンにも。</p>
-                    <small class="p-credibility__text  u-font--attention">※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。</small>
+                    <p class="p-credibility__text ">その経験を通じて気づいたのは、集客や売上に困っている個人サロンオーナーが本当に多いという現実でした。<span class="u-font-color--accent-pink">「文章でこんなに変わるなら、もっと多くのオーナーさんの力になれるはず」</span>そう考え制作したのが、<span class="u-font-color--accent-pink">予約につながる文章作成ツール『サロンチャーム』</span>です。</p>
+                    <p class="p-credibility__text ">サロンチャームを使えば、これまで<span class="u-font-color--accent-pink">1時間かかっていた投稿作成が、たった10分※に短縮できます。</span>外注ライターにお願いすれば毎月数万円かかる文章も、サロンチャームなら買い切りでずっと使える。</p>
+                    <p class="p-credibility__text ">だからこそ、ぜひこの機会に手に入れて、実際に使ってみてください。<br>「もう文章で悩まなくていい」という安心感を、あなたのサロンにも。</p>
+                    <small class="p-credibility__attention  u-font--attention u-font--attention--left">※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。</small>
                 </div>
                 <div class="p-credibility__cta">
                     <div class="c-cta">
@@ -733,7 +733,7 @@
                                     <meta itemprop="availability" content="https://schema.org/InStock" />
                                 </div>
                             </div>
-                            <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
+                            <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">&quot;自動で予約につながる文章術&quot;を手に入れる
                                 <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
                                     <use href="#cta-icon"></use>
                                 </svg>
@@ -750,7 +750,7 @@
        //    よくある質問
        //------------------------------->
         <section class="p-faq">
-            <h2 class="p-faq__head">よくある質問</h2>
+            <h2 class="p-faq__head">よくあるご質問</h2>
             <div class="l-inner p-faq__inner">
                 <div class="p-faq__container">
                     <details class="p-faq__item js-details">
@@ -903,7 +903,7 @@
                                 <meta itemprop="availability" content="https://schema.org/InStock" />
                             </div>
                         </div>
-                        <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">『自動で予約につながる文章術』を手に入れる
+                        <a itemprop="url" aria-label="サロンチャームの購入ページへのリンク" href="https://mamanowa-wa.stores.jp/items/68edaaa57ae4bd522eb4fd5c" target="_blank" class="c-cta__link">&quot;自動で予約につながる文章術&quot;を手に入れる
                             <svg class="c-cta__link-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="11" aria-hidden="true" viewBox="0 0 14 14">
                                 <use href="#cta-icon"></use>
                             </svg>

@@ -1,7 +1,8 @@
 @use "../config/" as *;
 
-.u-space-top {
-  margin-top: rm(5);
-  display: inline-block;
-  font-weight: 500;
+.u-space__list-item {
+  display: flex;
+  flex-direction: column;
+  gap: rm(11);
+  margin-block-start: rm(-4);
 }

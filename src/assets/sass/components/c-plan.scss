@@ -66,23 +66,25 @@
   border-bottom: rm(1) solid #d9d9d9;
   background: #ffe6ed;
   white-space: nowrap;
-  padding-inline: rm(15);
-
+  width: rm(140);
+  box-sizing: content-box;
   &--first-row {
   }
 
   &--last-row {
     position: relative;
     border-bottom: none;
+
     z-index: 0;
     &::before {
+      box-sizing: content-box;
       content: "";
       position: absolute;
       border-bottom: rm(4) solid $accent-pink-light;
       border-inline: rm(4) solid $accent-pink-light;
       border-radius: 0 0 rm(5) rm(5);
-      width: calc(100% + rm(8));
-      height: 100%;
+      width: rm(140);
+      height: 10%;
       background: #ffe6ed;
       z-index: -1;
       left: rm(-4);

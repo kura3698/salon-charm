@@ -1,1 +1,0 @@
-let observeHeaderBlockSize=new ResizeObserver(e=>{var e=e[0];e.borderBoxSize&&(e=e.borderBoxSize[0].blockSize,e=Math.round(e),document.documentElement.style.setProperty("--header-block-size",e+"px"))});document.addEventListener("DOMContentLoaded",()=>{var e=document.querySelector("header");e&&observeHeaderBlockSize.observe(e)});

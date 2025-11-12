@@ -1,5 +1,8 @@
 @use "../config/" as *;
 
+.u-font__uppercase {
+  text-transform: uppercase;
+}
 .u-font-small {
   color: #6b7280;
   font-size: rm(11);

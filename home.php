@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="<?php echo esc_url(get_template_directory_uri()); ?>/favicon.ico">
     <?php wp_head(); ?>
+    <link rel="preload" href="<?php echo esc_url(get_template_directory_uri()); ?>/img/img_fv.webp" as="image" type="image/webp" />
 </head>
 
 <body <?php body_class(); ?>>
@@ -86,7 +87,7 @@
                     <!-- 1 -->
                     <p class="p-problem__description-1 p-problem__description-1--1">あるオーナーさんが、<br>打ち合わせのときにそう漏らしました。</p>
                     <!-- 2 -->
-                    <p class="p-problem__description-1 p-problem__description-1--2">『LINEを送っても既読だけで返事がこない。<br>結局、割引しないと誰も来てくれなくて…』</p>
+                    <p class="p-problem__description-1 p-problem__description-1--2">『lineを送っても既読だけで返事がこない。<br>結局、割引しないと誰も来てくれなくて…』</p>
                     <!-- 3 -->
                     <p class="p-problem__description-1 p-problem__description-1--3">これは特別な悩みではありません。</p>
                     <!-- 4 -->
@@ -120,7 +121,7 @@
         //------------------------------->
         <section class="p-insight">
             <div class="p-insight__bg">
-                <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/bg_pink.webp' alt='' width='393' height='1810' loading='lazy'>
+                <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/bg_pink.webp' alt='' width='393' height='1810' loading='lazy' alt="">
             </div>
             <div class="l-inner p-insight__inner">
                 <p class="p-insight__but">でも･･･</p>
@@ -191,11 +192,11 @@
         //------------------------------->
         <section class="p-feature">
             <h2 class="p-feature__head">
-                <span class="u-font-size-large">30個</span>の<span class="u-font-size-large u-font-color--accent-yellow">"予約につながる型"</span>を<br>ツールにそのまま入れました
+                <span class="u-font-size-large">30個</span>の<span class="u-font-size-large u-font-color--accent-yellow"> &quot;予約につながる型 &quot;</span>を<br>ツールにそのまま入れました
             </h2>
             <div class="l-inner p-feature__inner">
                 <div class="p-feature__bg">
-                    <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/bg_pink.webp' alt='' width='393' height='1810' loading='lazy'>
+                    <img src='<?php echo esc_url(get_template_directory_uri()); ?>/img/bg_pink.webp' alt='' width='393' height='1810' loading='lazy' alt="">
                 </div>
                 <p class="p-feature__description p-feature__description--1">
                     実は、かなうのメルマガ限定特典として<br>無料で“予約につながる文章の30の型”を<br>お渡ししています。<br><span class="u-space-top">でも、</span>
@@ -280,7 +281,7 @@
                         <div class="c-benefit-card__body">
                             <div class="c-benefit-card__description-wrap">
                                 <p class="c-benefit-card__description">
-                                    今までは、投稿1つ考えるだけで1時間。<br>「この表現でいいのかな？」「もっといい言い方があるのでは？」と手が止まっていたかもしれません。でもサロンチャームなら、型に沿ってスマホでポチポチするだけ。<span class="u-font-color--accent-pink">10分<span class="u-font-small u-font-color--accent-pink">※</span>ほどで"予約につながる文章"が完成します。余った時間は施術に集中することも、ゆっくりお茶を飲むことだってできます。</span>
+                                    今までは、投稿1つ考えるだけで1時間。<br>「この表現でいいのかな？」「もっといい言い方があるのでは？」と手が止まっていたかもしれません。でもサロンチャームなら、型に沿ってスマホでポチポチするだけ。<span class="u-font-color--accent-pink">10分<span class="u-font-small u-font-color--accent-pink">※</span>ほどで &quot;予約につながる文章&quot;が完成します。余った時間は施術に集中することも、ゆっくりお茶を飲むことだってできます。</span>
                                 </p>
                                 <small class="u-font--attention u-font--attention--left c-benefit-card__attention">
                                     ※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。
@@ -334,7 +335,7 @@
                         <div class="c-benefit-card__body">
                             <div class="c-benefit-card__description-wrap">
                                 <p class="c-benefit-card__description">
-                                    一度来店したお客様に「また行きたい」と思ってもらうには、接客や技術だけでは足りません。日々の投稿やメッセージで"人柄"が伝わることが大切です。サロンチャームなら、<span class="u-font-color--accent-pink">あなたの魅力を自然に文章にのせられるから、リピーターが増えて売上も安定します。</span>
+                                    一度来店したお客様に「また行きたい」と思ってもらうには、接客や技術だけでは足りません。日々の投稿やメッセージで &quot;人柄 &quot;が伝わることが大切です。サロンチャームなら、<span class="u-font-color--accent-pink">あなたの魅力を自然に文章にのせられるから、リピーターが増えて売上も安定します。</span>
                                 </p>
                             </div>
                             <figure class="c-benefit-card__image">
@@ -368,7 +369,7 @@
                         <div class="c-benefit-card__body">
                             <div class="c-benefit-card__description-wrap">
                                 <p class="c-benefit-card__description">
-                                    「これで合ってるのかな？」そんな不安を抱えながら投稿しても、思うように反応は返ってきません。でもサロンチャームなら、すでに結果が出ている"型"を使えるので安心。<span class="u-font-color--accent-pink">「これなら大丈夫」と自信を持って発信できるようになります。</span>その自信が、さらにお客様に伝わりやすくなるのです。
+                                    「これで合ってるのかな？」そんな不安を抱えながら投稿しても、思うように反応は返ってきません。でもサロンチャームなら、すでに結果が出ている &quot;型 &quot;を使えるので安心。<span class="u-font-color--accent-pink">「これなら大丈夫」と自信を持って発信できるようになります。</span>その自信が、さらにお客様に伝わりやすくなるのです。
                                 </p>
                             </div>
                             <figure class="c-benefit-card__image">
@@ -429,7 +430,7 @@
                     </video>
                 </div>
                 <p class="p-easeofuse__description-2">どうですか？<br>思ったより簡単ですよね？</p>
-                <p class="p-easeofuse__description-3">動画を見れば、<br><span class="u-font-squire">"私でもできる"</span>と安心していただけるはずです。<br>『どうやってやるの？』と思ったら、<br>こちらも動画で確認できます。<br>見ながら操作すれば、<br><span class="u-font-squire">パソコンが苦手な方でも</span>安心して使いこなせます。</p>
+                <p class="p-easeofuse__description-3">動画を見れば、<br><span class="u-font-squire"> &quot;私でもできる &quot;</span>と安心していただけるはずです。<br>『どうやってやるの？』と思ったら、<br>こちらも動画で確認できます。<br>見ながら操作すれば、<br><span class="u-font-squire">パソコンが苦手な方でも</span>安心して使いこなせます。</p>
                 <div class="p-easeofuse__point">
                     <span class="p-easeofuse__point-head">
                         <svg width="189" height="18" viewBox="0 0 189 18" fill="none" aria-labelledby="point-label" xmlns="http://www.w3.org/2000/svg">
@@ -475,7 +476,7 @@
                             <th class="p-overview__table-head">特徴</th>
                             <td class="p-overview__table-data">
                                 <ul>
-                                    <li>"予約につながる30の型"を内蔵</li>
+                                    <li> &quot;予約につながる30の型 &quot;を内蔵</li>
                                     <li>スマホだけで操作OK<br>（パソコン不要）</li>
                                     <li>質問に答えてポチポチするだけで文章完成</li>
                                     <li>マニュアル＆操作動画つき</li>
@@ -710,7 +711,7 @@
                     <p class="p-credibility__text ">その経験を通じて気づいたのは、集客や売上に困っている個人サロンオーナーが本当に多いという現実でした。<span class="u-font-color--accent-pink">「文章でこんなに変わるなら、もっと多くのオーナーさんの力になれるはず」</span>そう考え制作したのが、<span class="u-font-color--accent-pink">予約につながる文章作成ツール『サロンチャーム』</span>です。</p>
                     <p class="p-credibility__text ">サロンチャームを使えば、これまで<span class="u-font-color--accent-pink">1時間かかっていた投稿作成が、たった10分※に短縮できます。</span>外注ライターにお願いすれば毎月数万円かかる文章も、サロンチャームなら買い切りでずっと使える。</p>
                     <p class="p-credibility__text ">だからこそ、ぜひこの機会に手に入れて、実際に使ってみてください。<br>「もう文章で悩まなくていい」という安心感を、あなたのサロンにも。</p>
-                    <small class="p-credibility__attention  u-font--attention u-font--attention--left">※文章作成時間には個人差があります。<br>慣れによって所要時間が短縮されるケースもあります。</small>
+                    <small class="p-credibility__attention  u-font--attention u-font--attention--left">※文章作成時間には個人差があります。慣れによって所要時間が短縮されるケースもあります。</small>
                 </div>
                 <div class="p-credibility__cta">
                     <div class="c-cta">
@@ -760,8 +761,8 @@
                             </span>
                         </summary>
                         <div class="p-faq__answer js-content">
-                            <p class="p-faq__answer-text">
-                                はい、スマホだけで簡単に操作できます。<br>LINEで友達に送るような感覚です。
+                            <p class="p-faq__answer-text u-font__uppercase">
+                                はい、スマホだけで簡単に操作できます。<br>lineで友達に送るような感覚です。
                             </p>
                         </div>
                     </details>

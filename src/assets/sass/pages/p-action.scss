@@ -21,8 +21,8 @@
   font-family: $ff-mincho;
   font-size: rm(24);
   font-weight: 800;
-  line-height: 1.8;
-  padding-inline: rm(10);
+  line-height: 1.6;
+  padding-inline: rm(18);
   border-radius: rm(7);
   background: linear-gradient(126deg, #ed8ea4 38.44%, #e66881 109.98%);
   span {
@@ -31,7 +31,7 @@
 }
 
 .p-action__contents {
-  padding-block: rm(40);
+  padding-block: rm(35) rm(40);
 }
 
 .p-action__text {
@@ -42,16 +42,16 @@
 }
 
 .p-action__text--1 {
-  line-height: 1.8;
+  line-height: 1.85;
 }
 
 .p-action__text--2 {
-  padding-block-start: rm(21);
+  padding-block-start: rm(11);
   line-height: 1.8;
 }
 
 .p-action__text--3 {
-  padding-block-start: rm(17);
+  padding-block-start: rm(14);
   display: block;
 }
 
@@ -69,9 +69,10 @@
   border: rm(0.5) solid $accent-pink;
   background: #ffedf2;
   display: flex;
-  padding-inline-start: rm(9);
+  padding-inline-start: rm(14);
   gap: rm(8);
   align-items: center;
+  padding-block: rm(2);
 }
 
 .p-action__item-check {
@@ -86,8 +87,8 @@
 }
 
 .p-action__text--4 {
-  padding-block-start: rm(28);
-  line-height: 1.8;
+  padding-block-start: rm(31);
+  line-height: 1.7;
 }
 .p-action__text--5 {
   margin-block-start: rm(12);

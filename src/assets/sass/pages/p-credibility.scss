@@ -2,7 +2,7 @@
 
 .p-credibility {
   background: #fff7f8;
-  padding-block-end: rm(30);
+  padding-block-end: rm(40);
 }
 
 .p-credibility__head {
@@ -37,11 +37,15 @@
   border-radius: rm(12);
   background: #fff;
   box-shadow: rm(2) rm(2) rm(11) 0 rgba(222, 188, 192, 0.4);
+
+  & .p-credibility__text:first-of-type {
+    margin-block-start: rm(15);
+  }
 }
 
 .p-credibility__name-group {
   display: flex;
-  gap: rm(4);
+  gap: rm(6);
   flex-direction: column;
 }
 
@@ -52,10 +56,14 @@
   color: $text-white;
   font-size: rm(18);
   font-weight: 700;
-  line-height: 1.8;
-  padding-inline: rm(10);
+  line-height: 1.45;
+  padding-inline: rm(13);
   border-radius: rm(5);
   background: $accent-pink-light;
+
+  &--short {
+    padding-inline: rm(3);
+  }
 }
 
 .p-credibility__icon {
@@ -67,7 +75,13 @@
 .p-credibility__text {
   color: $text-main-2;
   font-weight: 350;
-  line-height: 2.2;
+  line-height: 1.6;
+  text-indent: 1em;
+}
+
+.p-credibility__attention{
+  display: block;
+  margin-block-start: rm(10);
 }
 
 .p-credibility__text + .p-credibility__text {

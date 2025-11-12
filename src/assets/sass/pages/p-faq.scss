@@ -13,8 +13,8 @@
   font-family: $ff-mincho;
   font-size: rm(22);
   font-weight: 800;
-  line-height: 2.8;
-  padding-block: rm(26) rm(31);
+  line-height: 1;
+  padding-block: rm(31);
   background: $accent-pink;
   width: 100%;
 }
@@ -35,9 +35,8 @@
 
 .p-faq__question {
   padding-inline: rm(16);
-
   position: relative;
-  padding-block: rm(9);
+  padding-block: rm(6);
   &::before,
   &::after {
     content: "";
@@ -74,12 +73,23 @@
 }
 
 .p-faq__answer {
+  position: relative;
   padding-inline: rm(16);
   height: 0;
   opacity: 0;
   overflow: hidden;
   transition: height 0.4s ease, opacity 0.4s ease;
-  border-block-start: 1px solid #d9d9d9;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    translate: -50% 0;
+    width: 88%;
+    height: 1px;
+    background: #d9d9d9;
+  }
 }
 
 .is-opened .p-faq__answer {

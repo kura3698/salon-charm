@@ -13,6 +13,7 @@
 .p-plan__head-bg {
   position: absolute;
   z-index: -1;
+  width: 100%;
 }
 
 .p-plan__head-text {
@@ -41,31 +42,31 @@
 }
 
 .p-plan__text--2 {
-  margin-block-start: rm(19);
+  margin-block-start: rm(15);
 }
 
 .p-plan__text--3 {
   font-size: rm(16);
   font-weight: 700;
   margin-block-start: rm(28);
-  line-height: 1.4;
+  line-height: 1.3;
   strong {
     font-size: rm(31);
   }
 }
 
 .p-plan__contents {
-  margin-block-start: rm(34);
+  margin-block-start: rm(42);
 }
 
 .p-plan__text--4 {
-  margin-block-start: rm(32);
+  margin-block-start: rm(36);
 }
 
 .p-plan__text--5 {
-  margin-block-start: rm(28);
+  margin-block-start: rm(24);
 }
 
 .p-plan__text--6 {
-  margin-block: rm(20) rm(35);
+  margin-block: rm(26) rm(37);
 }

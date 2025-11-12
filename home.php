@@ -423,7 +423,7 @@
                     <span class="u-font-squire">まるでLINEで友達とやり取りするような感覚</span>で<br>進められます。<br>スマホでポチポチ質問に答えていくだけで、<br>型に沿った文章が自動で完成するのです。
                 </p>
                 <div class="p-easeofuse__video-container">
-                    <video controls width="100%" height="auto" preload="metadata" loading="lazy">
+                    <video width="635" height="401" controls preload="metadata">
                         <source src="<?php echo esc_url(get_template_directory_uri()); ?>/video/howto.mp4" type="video/mp4">
                         お使いのブラウザは動画に対応していません。<a href="<?php echo esc_url(get_template_directory_uri()); ?>/video/howto.mp4">動画をダウンロード</a>してください。
                     </video>
@@ -912,6 +912,7 @@
                     <small class="c-cta__attention">※価格や提供条件は予告なく変更になる場合があります。
                     </small>
                 </div>
+            </div>
         </section>
     </main>
     <?php get_footer(); ?>
